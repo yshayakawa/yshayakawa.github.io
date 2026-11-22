@@ -2,6 +2,9 @@
   url: /
 - title: about
   url: /about/
+  children:
+    - title: lab members
+      url: /lab-members/
 - title: research
   url: /research/
   children:
@@ -31,8 +34,6 @@
       url: /education/#theses
     - title: outreach
       url: /education/#outreach
-- title: lab members
-  url: /lab-members/
 - title: photographs
   url: /photographs/
 - title: misc

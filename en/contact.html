@@ -1,0 +1,45 @@
+---
+layout: default
+title: contact
+permalink: /en/contact/
+lang: en
+lang_dir: en
+---
+
+<div class="cols">
+  <div>
+    <h2>address</h2>
+    <address>
+      Faculty of Environmental Earth Science, Hokkaido University<br>
+      N10W5 Kita-ku, Sapporo, Hokkaido 060-0810, Japan
+    </address>
+    <p><a href="http://maps.gsi.go.jp/?hc=hifc#18/43.072618/141.345930/&amp;base=pale&amp;ls=pale&amp;disp=1">view in GSI map &raquo;</a></p>
+  </div>
+  <div class="mapbox">
+    <iframe title="map" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=141.3409%2C43.0701%2C141.3509%2C43.0751&amp;layer=mapnik&amp;marker=43.072618%2C141.345930"></iframe>
+  </div>
+</div>
+
+<h2>contact form</h2>
+
+{% if site.formspree_id and site.formspree_id != "" %}
+<form class="contact" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
+  <label for="name">name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">email (for reply)</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="subject">subject</label>
+  <input type="text" id="subject" name="_subject">
+
+  <label for="message">message</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off">
+  <button type="submit">send</button>
+</form>
+{% else %}
+<p class="notice">The contact form is under preparation.</p>
+{% endif %}

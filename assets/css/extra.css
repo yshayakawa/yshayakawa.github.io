@@ -1,0 +1,13 @@
+/* language switch (top right of header) */
+#header { position: relative; }
+.langsw { position: absolute; top: 14px; right: 0; font-size: .85em; line-height: 1; }
+.langsw a, .langsw span { display: inline-block; padding: 5px 11px; border: 1px solid #777; margin-left: -1px; color: #777; text-decoration: none; background: #fff; }
+.langsw span.on { background: #777; color: #fff; }
+.langsw a:hover { background: #f71c54; border-color: #f71c54; color: #fff; }
+
+/* photographs: small thumbnails in a grid */
+.pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px 14px; margin: 0 0 2em; }
+.pcard { font-size: .8em; line-height: 1.35; overflow-wrap: anywhere; }
+.pcard p { margin: .35em 0 0; }
+.pcard img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.pcard a { display: block; }
