@@ -6,11 +6,11 @@
 
 河床遷急区間（河川縦断面形において部分的に急勾配で、侵食が活発な区間：峡谷や滝など）は、岩盤河川地形において重要な地形要素であるが、その広範囲にわたる分布についてはこれまでほとんど調べらてこなかった。本研究では、日本列島の山地岩盤河川における河床遷急区間の分布を、DEM（デジタル標高モデル）に基づくGISを用いた河床勾配計測により明らかにした。遷急区間は河川の上流域、河床勾配が急になっている部分、また主要河川どうしの合流点付近により多く存在し、これらは遷急区間が河川の水理的な作用により形成されていることを示唆する。さらに、遷急区間の出現頻度に典型的な値があることも明らかになった。一方、地質の遷急区間形成に対する影響は限られていることが示唆された。
 
-![](https://sites.google.com/sitesv-images-rt/APXyLQd3e6a0Fro6cqSCJBJ_r0K-UfhOUC7VsJP9-RZMn44WK2kgmoMKYF90pDQ6vMRIppZwiqS550nQGfTnJ032pVx_rzANSTV9xaPfDM_rvWuZmMPaOelesdYKx2JcCkbQalbW3Iy50YMhiPvUwMXYpG0rti6FSlFWqVZ1Tx9Bu_OB7yNwJoDAKx3XBKaB3uX7Dl86uxWh8Q8yBeBSHJTkvNf3E6ezTAVCwNRn2-tsbo8=w1280)
+![](https://sites.google.com/sitesv-images-rt/APXyLQc7zVahqDQ2_ZF0RDDEfTRK0oLXIOzCp6XvXgYuJ2wmIC0WGkQcC2uDHmpPdbah3gOTRntCPbf6dlqR2cwM5iFIsN_ZgbSjfY_Un2sYxbV5i3M5juNsZmRgDbs60bg8EZH3V-z8KXQCsRPi-zuyPhHn_T5fcYOJlYEiweVGPjNioKFyaaYfRD1W-uPMUYwhxfwXIkkSLe4zKrDiQNK2YubCBwGJkpOGGY-lK5Kgefs=w1280)
 
 density distribution of knickzones遷急区間マップ「日本列島滝だらけ」
 
-![distribution of knickzones in Kanto region, Japan](https://sites.google.com/sitesv-images-rt/APXyLQdmlWiAzLUvB2QFobGcljkUKhFsCIn5T-zLAOKsSp2OcU8eYYtt3ltin75XkRcHuAyfRXEUghDCjZsUNg9GzS2Zym9gtG_4qC9WkbiaI04XdmmZU6J0jtLbpvs-ThfemmFMpm4XiT35dhapjBU2c6kVp_NRnESTQ88w-kL0VRoCLMLoScwytxQ7P_tr6lQxdylcByDSeBfj_Geu4UqkDvYkf8s=w1280)
+![distribution of knickzones in Kanto region, Japan](https://sites.google.com/sitesv-images-rt/APXyLQfkir1gxYXXwh4F9VPIlwWDyOuKnGIn5DjQM-MkN4kJA9Q7itbMZ_XAooFww0YKlXIMuZbGZunR0VhpZjY5EMnKyIj13q0lcaM9CLnpbx_odsat-2lYqL05xzuPatzmH1u3IpTWOv2Pmsdhowo98xx99Q0Gsx0hK-8ltT_aWptlnSXy6Gw-E8ODbR7JDHS6uPLmvtsbmnAfPgIDZ6GYJrsEyZE=w1280)
 
 distribution of knickzones in Kanto region, Japan
 
@@ -24,7 +24,7 @@ distribution of knickzones in Kanto region, Japan
 
 岩盤河川における滝や遷急点の後退は河川地形の発達において重要なプロセスの一つである。しかし、その詳細なメカニズムについては実は不明な部分も多い。典型的によく知られているのは、滝のキャップロック構造とその侵食モデルである。これは、「固い岩盤が滝を形作っている」という前提で、固い層の下位にある比較的軟らかい層が先に削られることにより、滝の後退が生じるといった考えである。ところが、その力学的な妥当性について、このキャップロックモデルのもととなったナイアガラフォールズで検証したところ、１）岩盤強度は新鮮な場合それほど差がないこと、２）滝面下部の実際の凹みに対して崖面は頑丈であり、キャップロックモデルであらわされるような突発的で大規模な崩落は生じにくいこと、すなわち、岩盤の風化と水流による侵食により、滝面の岩石が少しずつ剥離されていくことによりこの滝の後退が進行することがわかった。これは、滝の侵食メカニズムに関して新たな知見をもたらしたものである。
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQc9ueNj_18vOPVaB_ciP-MfVl7jN9LOVuhvVmxN2a7mXRWOqSYmBJ-Ncz93cFNrOI9XY_Wj_yvRPSjpOHdOcI3AwBxgqtWkVU1TTAGsjUdYp1QOnq2vNLUjcAFVwvb76Nl1q15s6eSGasyzmqA_oDoGHqvI569GdXJv_nOSdkbKMIs6nYQdN3F1YvT3i-6Nu3aj791WBe96oEwQzVejEEgELsZ_4M4GbGc92qy4luE=w1280)](https://www.flickr.com/photos/tagiru/15795228154)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQccD8u_S2fuRCAHs7FR14g5lzYi9f8hTfeeRcw5JHG8_dA8TfWhmZPUVNR6FLpNSbidwEVH7dtdqXlL5U8fYDhOSxiZp28JMcmlI5PKiSkLGMwJOYAORjFFO52qwdN-Pdc3NAQURu3iTCaOrDLBR2BdUua5hO0lYKWfc0Bzwo2RsxghlWgKThw0EbnkSf0Mto3e4jYZRYi-Uc7Q3zmpyLjYyoP8bLEbuynqwVexcFM=w1280)](https://www.flickr.com/photos/tagiru/15795228154)
 
 receding niagara / 後退するナイアガラ滝
 
@@ -38,7 +38,7 @@ Goro Falls in southern Aso caldera foothill / 阿蘇外輪山南麓，五老ヶ�
 
 滝の後退速度とその規定要因について、千葉県房総半島における滝について調査した（Hayakawa and Matsukura, 2003）。房総半島は、日本の中でも大きな隆起速度と侵食速度が観察される地域であり、滝の侵食速度も年間数cmから数10 cmと大きい。一方、滝の後退速度に影響する主要因は河川の侵食力と岩盤の抵抗力と考えられ、それぞれを表す計測可能なパラメータを現地または図上計測により取得し、これらから次元解析に基づいて導いた無次元パラメータと滝の後退速度との間には高い相関関係がみられた。これにより、滝の後退速度を推定する経験式が得られた。続いて、この式の妥当性や限界を、その他の多くの地域において検証を進めた。調査した滝は、華厳滝や称名滝といった日本国内の著名・無名な滝から、台湾、北米（コロラド、ナイアガラ）、スイスアルプスといった様々な地域にわたる。
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQftKUpvbO9wSeilObK1aIvxc5clnTJKCVIo5AGgEe1d8LhizGWgGLKXRQLr8Bw7Mbw2eEk57dPPKPnznr0LaCk1JI1wogUVu2pAfUERVjIDXmgQtmfnB5-ae6Mkt_LY_mP547KIDraWUidcwCbC9mjYv-AJsW4tIo6g3Wjq4BMBml2C6dY2p6meK-32eztHiaG8pkSDA8leGl-kSz9nSMlbr4ZK0scDpdC_iMyHBSU=w1280)](https://www.flickr.com/photos/tagiru/8327157045)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQe4IzBusjRvjTV8cIj4OrgtfT_V4IJfMCkmmAe1ZQZzatrDtDtrFWECcOh3FdTeGFb0hPThXZt8BPKhgMm7BqUl_XT7EWl2cJTDDLke-ns-OGpaQN3G_8_BK_os1piptKZ1XbSvAds0hhmo7khb-Y7Kv_VLdZqlZFODFJ_IFojMciZUHmmMIfrfriQr5gOFulTZ_zCYm_9L716x30ZGUSyI5EOzxpbxSf0dDcEaApg=w1280)](https://www.flickr.com/photos/tagiru/8327157045)
 
 Goro Falls / 阿蘇・五老ヶ滝
 
@@ -66,7 +66,7 @@ Goro Falls / 阿蘇・五老ヶ滝
 
 - Stark, C.P., Barbour, J.R., Hayakawa, Y.S., Hattanji, T., Hovius, N., Chen, H., Lin, C-W., Horng M-J., Xu K-Q., Fukahata, Y. (2010) The climatic signature of incised river meanders. Science, 327 (5972), 1497–1501. [https://doi.org/10.1126/science.1184406](https://doi.org/10.1126/science.1184406)
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQcBZqsckzTEF6FjUxd_wZrr8nFp5yL04mACQi9MkhSwdLNoyiQMJGzrHSXawrw7pqn1uXBjVutUvTJLnBYGHMssfpTCC_-flsOsgeVKGsRh8X7Opvrt4TpfijQ2_zpNYOg3cOsBMtrRm3ALaLxa9k1WbZ4rIcrpzW_mKcP_Xo7pmDHnzpRH90jP0HxT1_PRb8HvZvuLdYM8zTNiPgBrZBRjfgwmcDeWliQuEo156pc=w1280)](https://www.flickr.com/photos/tagiru/5443973847)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQecjOrB3r_cFQv2ng84MSW57hJ9vJs0wxjNyzBRUSoO6nfmLCYLSPLcyOtIXcyvIBky7l-Dg8tIH1OHRFZ8WnRG6SybjWLfy1ShbogutqtL_dC04oDO4pXepInc1oqzXbN_Lo73RTTywONE06GjAstkaKczNZR8tykMmQuVOIkU-euvlZ_bn9TivsweIfA0XlDVCx42PYRKqeL4HDmBSw5BWRn2pdE6Tz4w-TEt3rU=w1280)](https://www.flickr.com/photos/tagiru/5443973847)
 
 incised meander - 穿入蛇行する大井川
 
