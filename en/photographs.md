@@ -12,7 +12,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![TJGU cover photos](/assets/img/9de908baf8a9.jpg)](https://photos.app.goo.gl/69ULAUmTvrY3TzWm8)
+[![TJGU cover photos](/assets/img/ae1bfa692377.jpg)](https://photos.app.goo.gl/69ULAUmTvrY3TzWm8)
 
 [TJGU cover photos](https://photos.app.goo.gl/69ULAUmTvrY3TzWm8)
 
@@ -20,7 +20,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![mt. fuji](/assets/img/83ff5e2372c8.jpg)](https://photos.app.goo.gl/9huJq4XtYeKzkixn7)
+[![mt. fuji](/assets/img/608f87a12bc0.jpg)](https://photos.app.goo.gl/9huJq4XtYeKzkixn7)
 
 [mt. fuji](https://photos.app.goo.gl/9huJq4XtYeKzkixn7)
 
@@ -28,7 +28,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![airplane window views](/assets/img/65fa2bc1672f.jpg)](https://photos.app.goo.gl/ps2yHeC9YDULMTFa8)
+[![airplane window views](/assets/img/e270f1f8333c.jpg)](https://photos.app.goo.gl/ps2yHeC9YDULMTFa8)
 
 [airplane window views](https://photos.app.goo.gl/ps2yHeC9YDULMTFa8)
 
@@ -36,7 +36,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![sky](/assets/img/c6d5f668ea09.jpg)](https://photos.app.goo.gl/yhvLytQMoZprFotZ7)
+[![sky](/assets/img/c440777905a7.jpg)](https://photos.app.goo.gl/yhvLytQMoZprFotZ7)
 
 [sky](https://photos.app.goo.gl/yhvLytQMoZprFotZ7)
 
@@ -44,7 +44,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![waterfalls](/assets/img/a575aceb5434.jpg)](https://photos.app.goo.gl/2rG3oDPNzCWQzLkN6)
+[![waterfalls](/assets/img/b92ddd3f247e.jpg)](https://photos.app.goo.gl/2rG3oDPNzCWQzLkN6)
 
 [waterfalls](https://photos.app.goo.gl/2rG3oDPNzCWQzLkN6)
 
@@ -58,7 +58,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-![](/assets/img/881f65cfb7e3.jpg)
+![](/assets/img/cb34094fb2ff.jpg)
 
 **2010**
 
@@ -68,7 +68,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-[![](/assets/img/05b142a10026.jpg)](https://goo.gl/photos/7uk4kUBkkh2rXchQ6)
+[![](/assets/img/0b1d4ceca741.jpg)](https://goo.gl/photos/7uk4kUBkkh2rXchQ6)
 
 **2010**
 
@@ -78,7 +78,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-![](/assets/img/433a7f2a22ac.jpg)
+![](/assets/img/4a694d5506ba.jpg)
 
 **2009**
 
@@ -88,7 +88,7 @@ lang_dir: en
 
 <div class="pcard" markdown="1">
 
-![](/assets/img/61e84d9d17e3.jpg)
+![](/assets/img/546e187eb078.jpg)
 
 **2008**
 

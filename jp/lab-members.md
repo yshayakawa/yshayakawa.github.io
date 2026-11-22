@@ -8,6 +8,14 @@ lang_dir: jp
 
 # members
 
+## 現メンバー
+
+研究室「[環境地理](https://envgeo.ees.hokudai.ac.jp/members/)」のページをご覧ください。
+
+[![](/assets/img/54e321e0b01c.png)](https://envgeo.ees.hokudai.ac.jp/members)
+
+
+
 ## ポスドク、大学院生募集中
 
 ### 大学院受験をお考えの方へ

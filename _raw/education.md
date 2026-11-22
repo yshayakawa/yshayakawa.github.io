@@ -4,13 +4,13 @@
 
 （[国際環境保全コース](https://www.ees.hokudai.ac.jp/division/kigaku/modules/courses/GEM.html) 兼担）
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQcBODX-1ofwS7ZZnzKqMRfDrkOXa2_6w6_TkzhtdcL9rDbkvW9syMgifTkUqGXMfUjKcB6M7S87-aAxVDNaSQeHhihmzQyiM8COS5GNKCMqfhK5B-OW8DxlDUN9cHj2ZcPiqoK2vSWfuXymJXzvU-rL-c8vawQGHgYM19Tj4ur7CwM1-KuqTNZOlzwItXLOAI6ir7QmydZW0fvNdhE=w1280)](https://sites.google.com/view/yshayakawa/education/lectures)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQed98rf52HxO4TMxMLIRRB0Sa9mdRr2ypb3z-Z1z0Y4Vwnr8c-B1MVsn89uGzAxgOcY5ee0XQ0rT8Tl4dfzNFJllt3jJis9hQxuVOkrpYoZ_gshWR0WZ1Xq42QmSTwYssEwDi8A5QW8Dr4EI3E6N3UVUGWEiz8TigR4NSfNd5LUwp77LnmxXbSKaD64MTU1XgE9ZJnPWtwrv1040ro=w1280)](https://sites.google.com/view/yshayakawa/education/lectures)
 
 ### [lectures](https://sites.google.com/view/yshayakawa/education/lectures)
 
 授業担当
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQeY_pVTEVmH4LQYRLC8HaUoLt3nW_Kf6PkL-XujoDWc1-oy5P5oSXQHyicW90-NNbT1HbexkHy5rU6F7BHWno7u2X3i5pf-KTFRy8U-fIwnfH4HT6aTJHc8mp-7eGxdP8UozHj5XqXWjwiQieYKG1S8kS1EC46GQDOkH1A=w1280)](https://sites.google.com/view/yshayakawa/education/theses)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQewYNfAybwxisxNQFNmD42SF8-Vrm-1rI7bKepYbZnX_RmuGJqT1MCIsFKJjUTRNyHG4zK55zD99sclGaYg0qA6BMeHwEUFcxOGxIvhEr_o8ewIOoFf60OZECJo9icJz1j8_GQchDhBH988hsTatRDa_UvLFQinUCxIxCU=w1280)](https://sites.google.com/view/yshayakawa/education/theses)
 
 ### [thesis reviews](https://sites.google.com/view/yshayakawa/education/theses)
 
