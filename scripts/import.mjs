@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs';
+import path from 'node:path';
 import crypto from 'node:crypto';
 
 const BASE = 'https://sites.google.com/view/yshayakawa/';
@@ -45,11 +46,29 @@ function extractInPage() {
     .trim();
 }
 
+fs.mkdirSync('_raw', { recursive: true });
+fs.mkdirSync('assets/img', { recursive: true });
+
+// Legacy Dropbox files: scripts/dropbox-manifest.json = [{ url, dest }] (single-use temporary links).
+// A file that already exists is kept; a failed/expired link is only logged.
+const MANIFEST = 'scripts/dropbox-manifest.json';
+if (fs.existsSync(MANIFEST)) {
+  const items = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
+  for (const it of items) {
+    try {
+      if (fs.existsSync(it.dest)) { console.log('dropbox exists', it.dest); continue; }
+      const res = await fetch(it.url);
+      if (!res.ok) { console.log('dropbox HTTP', res.status, it.dest); continue; }
+      fs.mkdirSync(path.dirname(it.dest), { recursive: true });
+      fs.writeFileSync(it.dest, Buffer.from(await res.arrayBuffer()));
+      console.log('dropbox saved', it.dest);
+    } catch (e) { console.log('dropbox failed', it.dest, e.message.slice(0, 80)); }
+  }
+}
+
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, locale: 'ja-JP' });
 const page = await ctx.newPage();
-fs.mkdirSync('_raw', { recursive: true });
-fs.mkdirSync('assets/img', { recursive: true });
 
 async function grab(slug) {
   await page.goto(BASE + slug, { waitUntil: 'load', timeout: 90000 });
@@ -108,7 +127,9 @@ function rewriteLinks(md) {
 }
 
 const fm = (title, permalink) => '---\nlayout: default\ntitle: ' + title + '\npermalink: ' + permalink + '\n---\n\n';
-const strip = (md) => md.replace(/\n*Google Sites\s*\n+\s*Report abuse\s*$/, '').trim();
+// Google Sites footer ("Google サイト / 不正使用を報告") and empty list items ("-" alone would turn the previous line into a setext h2).
+const FOOTER = /\n*Google (?:サイト|Sites)\s*\n+\s*(?:不正使用を報告|Report abuse)\s*$/;
+const strip = (md) => md.replace(FOOTER, '').replace(/^[ \t]*-[ \t]*$/gm, '').replace(/\n{3,}/g, '\n\n').trim();
 const dropH1 = (md) => md.replace(/^# .*\n+/, '');
 const clean = (md) => dropH1(strip(md)).trim();
 const demote = (md, k) => md.replace(/^(#{1,6}) /gm, (m, h) => '#'.repeat(Math.min(6, h.length + k)) + ' ');
@@ -117,6 +138,7 @@ const sec = (title, id, level, md) => '#'.repeat(level) + ' ' + title + ' {#' + 
 async function emit(file, title, permalink, body) {
   if (!body.trim()) { console.log('skip (empty)', file); return; }
   body = rewriteLinks(await localize(body));
+  body = body.replace(/^\s*Google (?:サイト|Sites)\s*$/gm, '').replace(/^\s*(?:不正使用を報告|Report abuse)\s*$/gm, '').replace(/\n{3,}/g, '\n\n');
   fs.writeFileSync(file, fm(title, permalink) + body.trim() + '\n');
   console.log('wrote', file, body.length);
 }
@@ -145,7 +167,7 @@ const iPot = e0.search(/^### potential topics/m);
 const eduIntro = (iImg >= 0 ? e0.slice(0, iImg) : (iPot >= 0 ? e0.slice(0, iPot) : e0)).trim();
 const eduTopics = iPot >= 0 ? e0.slice(iPot).replace(/^### /gm, '## ') : '';
 const miscParts = g['misc'].split(/^## Links/m);
-const outreach = miscParts[0].replace(/^# .*\n+/, '').trim();
+const outreach = strip(miscParts[0].replace(/^# .*\n+/, ''));
 const miscRest = miscParts.length > 1 ? '## Links' + miscParts[1] : '';
 let edu = eduIntro + '\n\n';
 edu += sec('lectures', 'lectures', 2, demote(clean(g['education/lectures']), 1));
