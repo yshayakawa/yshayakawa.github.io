@@ -1,0 +1,36 @@
+name: Import content from Google Sites
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import.mjs'
+      - '.github/workflows/import.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright
+        run: |
+          npm init -y > /dev/null
+          npm install playwright --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Import
+        run: node scripts/import.mjs
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _raw assets about.md research.md publications.md education.md lab-members.md photographs.md misc.md
+          if git diff --cached --quiet; then echo 'nothing to commit'; exit 0; fi
+          git commit -m 'Import content and images from Google Sites'
+          git pull --rebase --autostash
+          git push
