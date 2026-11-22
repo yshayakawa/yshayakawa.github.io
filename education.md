@@ -177,10 +177,6 @@ permalink: /education/
   - 自然地理学1 (FY 2008)
   - 自然地理学2 (FY 2008)
 
-Google サイト
-
-不正使用を報告
-
 ## thesis reviews {#theses}
 
 主査・副査等として関わった学位論文
@@ -316,10 +312,6 @@ Google サイト
 - 水鳥未那人 (2009.03) レーザースキャナを用いた岩石の風化過程とその規定要因に関する研究. 東京大学理学部地球惑星環境学科（主査：小口 高）
 - 森岡卓哉 (2006.03) ニックゾーンの前後における地形の傾斜の変化. 東京大学理学部地球惑星環境学科（主査：小口 高）
 
-Google サイト
-
-不正使用を報告
-
 ## potential topics for master course
 
 - fluvial geomorphology on erosional landscapes in bedrock rivers in relation to watershed slopes
@@ -365,10 +357,6 @@ share ideas using our scientific knowledge with various people?
 
 - 自然地理のアウトリーチ手法と実践
 専門知識を生かして多くの人と思考を共有してみませんか？
-
-Google サイト
-
-不正使用を報告
 
 ## outreach {#outreach}
 

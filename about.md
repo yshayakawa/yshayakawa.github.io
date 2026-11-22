@@ -226,7 +226,3 @@ Thesis on “Spatial distribution and formation of fluvial knickzones in Japanes
 - 2017.05 [日本地球惑星科学連合JpGU-AGU Joint Meeting 2017 Special Photo Contest 最優秀賞](https://www.flickr.com/photos/tagiru/35217685516/)
 - 2024.07 [IAG Video Contest (April-June 2024) 最優秀賞](https://www.geomorph.org/2024/07/iag-video-contest-winner-april-june-2024/)
 - 2025.05 [地球惑星科学振興西田賞](https://www.jpgu.org/nishidaprize/2025-yuichi-s-hayakawa/)
-
-Google サイト
-
-不正使用を報告

@@ -233,10 +233,6 @@ permalink: /publications/
 - 早川裕一, 松倉公憲 (2003) 口絵3 : 日光,華厳滝の後退速度. 地学雑誌, 112 (4), Plate5-Plate6. [doi:10.5026/jgeography.112.4_Plate5](http://dx.doi.org/10.5026/jgeography.112.4_Plate5)
 - Hayakawa, Y., Matsukura, Y. (2002) Recession rates of waterfalls: a brief review. Annual Report of Institute of Geoscience, University of Tsukuba, 28, 1-4.
 
-Google サイト
-
-不正使用を報告
-
 ## presentations {#presentations}
 
 学会発表など
@@ -640,7 +636,7 @@ Google サイト
 - 羽田 康孝、小口 高、早川 裕弌、齋藤 仁 [HTT19-04] Time series analysis of TLS-derived point clouds for shallow landslides in Aso region, Kumamoto, Japan. JpGU-AGU Joint Meeting 2017, Makuhari.
 - 蝦名 益仁、早川 裕弌、Thad A. Wasklewicz、八反地 剛 [HTT19-05] Quantitative assessment of tree trunk inclination and topographic conditions using multi-temporal point cloud data in a hilly catchment. JpGU-AGU Joint Meeting 2017, Makuhari.
 - 竹内 識香、*楠本 成寿、早川 裕弌 [HTT19-07] Application of Structure-from-Motion Multi-View-Stereo Photogrammetry to the extraction of vertical deformation caused by an inflated magma chamber in an analogue experiment. JpGU-AGU Joint Meeting 2017, Makuhari.
--
+
 - ...
 
 #### 2016
@@ -660,19 +656,19 @@ Google サイト
 - 加藤 顕・早川裕弌・小花和宏之 (2016) 無人航空機と地上レーザーを用いた自然災害地評価. 日本写真測量学会平成28年度年次学術講演会, 東京大学.
 - 吉田英嗣（明治大）ほか：大隅半島神ノ川流 域における滝の形成・後退の地形プロセス. 日本地理学会2016春季大会, P028
 - 有賀夏希（東京学芸大・院）ほか：塩類風化 による削剥量と風化環境との定量的関係―史 跡・吉見百穴の凝灰岩の事例. 日本地理学会2016春季大会, P030
--
+
 - Kato, A., Hudak, A.T., Moskal, M., Gomez, C., Obanawa, H., Hayakawa, Y.S., Aruga, K. (2015) Beyond point clouds in forest application using Airborne Laser, Terrestrial Laser, and Structure from Motion. The 23rd CEReS International Symposium, 5A-3.
 - Saito, H., Obanawa, H., Tetuko, J., Sumantyo, S., Uchiyama, S., Hayakawa, Y.S. (2015) Application of high definition data for analysis of topographic and vegetation changes using UAVs and SfM photogrammetry -A case study of shallow landslides around Mt. Aso.- The 23rd CEReS International Symposium, P23.
 - 有賀夏希・青木 久・ 小口千明・早川裕弌 (2015) 吉見百穴坑道壁面における凝灰岩の塩類風化の発生条件について. 地形, 37 (2), 286.
 - 日本地形学連合2015年秋季大会, 2015年10月10-11日, 鹿児島大学.
 - [Natsuki ARIGA, Hisashi AOKI, Chiaki T. OGUCHI and Yuichi S. HAYAKAWA: Microenvironmental Factors of Salt Weathering Obser ved on Sandy Tuf f Walls of Abandoned Munitions Factory Tunnel in the Yoshimi Hyaku-Ana Historic Site.]
--
+
 - 加藤 顕, 小花和宏之, 早川裕弌, UAV-SfMと地上レーザーを用いた森林構造の把握, 第126回日本森林学会大会, 2015年3月28日 (北海道大学).
 - 加藤 顕, 早川裕弌, 小花和宏之, UAV-SfMと地上レーザーを用いた森林構造の把握, 第17回CEReS環境リモートセンシングシンポジウム, 2015年2月20日 (千葉大学).
 - 小花和宏之, 早川裕弌, 加藤 顕, 単独測位GNSSを用いた簡易UAV測量の適用例とその精度, CSIS DAYS 2014, 2014年11月21日 (東京大学).
 - Christpher Gomez, Hiroyuki Obanawa, Akira Kato, Yuichi S. Hayakawa and Hitoshi Saito, Structure from Motion for pointclouds creation from historical imagery and UAV: Monitoring floodplain vegetation evolution in 3D, 5th Digital Earth Summit 2014, 9-11 November 2014 (WINC AICHI).
 - 小花和宏之, 早川裕弌, 加藤 顕, クリストファー ゴメス, 様々な環境下における小型UAV航空測量の適用事例, 日本地形学連合2014年秋季大会, 2014年10月11-12日 (奈良大学).
--
+
 - Hiroyuki Obanawa, Yuichi S. Hayakawa, Christopher Gomez (2014) 3D Modelling of Inaccessible Areas using UAV-based Aerial Photography and Structure from Motion. Geophysical Research Abstracts, 16, EGU2014-5063 presented at EGU General Assembly 2014, Vienna, Austria, 27 April – 02 May.
 - Codilean, A.T., Korup, O., Hayakawa, Y.S., Matsushi, Y., Saito, H., Matsuzaki, H. (2013) Island-Arc Collision Dominates Japan's Sediment Flux to the Pacific Ocean. AGU Fall Meeting 2013 Abstract EP43B-0848. [[2013/12/9–13, American Geophysical Union 2013 Fall Meeting, San Francisco, California](http://fallmeeting.agu.org/2013/)]
 - Korup, O., Hayakawa, Y.S., Codilean, A., Oguchi, T. (2013) Threshold bedrock channels in tectonically active mountains with frequent mass wasting. AGU Fall Meeting 2013 Abstract EP53B-0792. [[2013/12/9–13, American Geophysical Union 2013 Fall Meeting, San Francisco, California](http://fallmeeting.agu.org/2013/)]
@@ -724,15 +720,9 @@ Google サイト
 - Hayakawa, Y., Oguchi, T., Komatsubara, J., Ito, K., Nishiaki, Y. (2005) Landform investigation using a handy laser-range finder at Tell Seker al-Aheimar, northeast Syria. 2005/4/14, 45th Al-Jazirah Society, University Museum of the University of Tokyo.
 - 早川裕一, 松倉公憲 (2002) 房総半島における滝の後退速度について. 2002年3月7日, 平成13年度 陸域環境研究センター年次研究報告会.
 
-Google サイト
-
-不正使用を報告
-
 ## books {#books}
 
-Google サイト
-
-不正使用を報告
+## books
 
 ## other publications {#other}
 
@@ -811,7 +801,3 @@ Hayakawa, Y. (2004): Form and distribution of fluvial knickzones in mountainous 
 Hayakawa, Y. (2002): Rates of waterfall recession in Boso Peninsula, Japan. （房総半島における滝の後退速度）
 
 学位： 平成14（2002）年3月25日 学士（理学）
-
-Google サイト
-
-不正使用を報告

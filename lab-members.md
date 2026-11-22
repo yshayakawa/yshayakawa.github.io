@@ -12,7 +12,7 @@ permalink: /lab-members/
 
 Please refer to the page of our laboratory, "[Environmental Geography](https://envgeo.ees.hokudai.ac.jp/members/)".
 
-[![](/assets/img/af20de11570e.png)](https://envgeo.ees.hokudai.ac.jp/members)
+[![](/assets/img/71e48edb7f61.png)](https://envgeo.ees.hokudai.ac.jp/members)
 
 ## ポスドク、大学院生募集中
 
@@ -37,7 +37,3 @@ Please have a careful look at [this page](https://www.ees.hokudai.ac.jp/division
 # please refer to [this page](https://www.global.hokudai.ac.jp/admissions/scholarships/scholarships-for-prospective-students/) for scholarships
 
 Please ask by [emails](/contact/) for further queries.
-
-Google サイト
-
-不正使用を報告

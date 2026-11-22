@@ -38,7 +38,3 @@ permalink: /misc/
 
 - [personal website at CSIS](https://warp.ndl.go.jp/info:ndljp/pid/11126599/home.csis.u-tokyo.ac.jp/~hayakawa/index.html) (~2018)
 - [みんなのひろば](https://warp.ndl.go.jp/info:ndljp/pid/12888527/home.csis.u-tokyo.ac.jp/~hayakawa/hiroba/index.html) (~2005)
-
-Google サイト
-
-不正使用を報告

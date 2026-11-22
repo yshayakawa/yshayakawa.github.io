@@ -10,10 +10,6 @@ My current research explores landform evolution and geomorphological processes u
 
 地球科学，とくに地形学や自然地理学，地考古学に関する研究課題に空間情報科学的視点から取り組んでいる。たとえば遷急区間や蛇行度に着目した岩盤河川の地形解析から，日本をはじめ台湾，北アメリカ，ヨーロッパアルプスなどの調査地において，地形発達過程や地形変化プロセスの研究を行っている。手法としてはDEMによる地形解析，GNSS調査，航空・地上レーザ測量，SfM写真測量，岩盤強度測定などを用いる。また主にアナトリア・中東地域において，地考古学における空間情報科学の適用から古環境変動や人類と自然の相互作用の解明を目指しており，こうした手法の現代都市への適用にも関心をもっている。
 
-Google サイト
-
-不正使用を報告
-
 ## topics {#topics}
 
 ### bedrock rivers {#bedrock-rivers}
@@ -24,11 +20,11 @@ Google サイト
 
 河床遷急区間（河川縦断面形において部分的に急勾配で、侵食が活発な区間：峡谷や滝など）は、岩盤河川地形において重要な地形要素であるが、その広範囲にわたる分布についてはこれまでほとんど調べらてこなかった。本研究では、日本列島の山地岩盤河川における河床遷急区間の分布を、DEM（デジタル標高モデル）に基づくGISを用いた河床勾配計測により明らかにした。遷急区間は河川の上流域、河床勾配が急になっている部分、また主要河川どうしの合流点付近により多く存在し、これらは遷急区間が河川の水理的な作用により形成されていることを示唆する。さらに、遷急区間の出現頻度に典型的な値があることも明らかになった。一方、地質の遷急区間形成に対する影響は限られていることが示唆された。
 
-![](/assets/img/eb028047443d.png)
+![](/assets/img/01daf00a5ed6.png)
 
 density distribution of knickzones遷急区間マップ「日本列島滝だらけ」
 
-![distribution of knickzones in Kanto region, Japan](/assets/img/0481f31a8c72.png)
+![distribution of knickzones in Kanto region, Japan](/assets/img/deb2b4e20459.png)
 
 distribution of knickzones in Kanto region, Japan
 
@@ -42,7 +38,7 @@ distribution of knickzones in Kanto region, Japan
 
 岩盤河川における滝や遷急点の後退は河川地形の発達において重要なプロセスの一つである。しかし、その詳細なメカニズムについては実は不明な部分も多い。典型的によく知られているのは、滝のキャップロック構造とその侵食モデルである。これは、「固い岩盤が滝を形作っている」という前提で、固い層の下位にある比較的軟らかい層が先に削られることにより、滝の後退が生じるといった考えである。ところが、その力学的な妥当性について、このキャップロックモデルのもととなったナイアガラフォールズで検証したところ、１）岩盤強度は新鮮な場合それほど差がないこと、２）滝面下部の実際の凹みに対して崖面は頑丈であり、キャップロックモデルであらわされるような突発的で大規模な崩落は生じにくいこと、すなわち、岩盤の風化と水流による侵食により、滝面の岩石が少しずつ剥離されていくことによりこの滝の後退が進行することがわかった。これは、滝の侵食メカニズムに関して新たな知見をもたらしたものである。
 
-[![](/assets/img/2263cbfbce52.png)](https://www.flickr.com/photos/tagiru/15795228154)
+[![](/assets/img/3b60815b8c5c.png)](https://www.flickr.com/photos/tagiru/15795228154)
 
 receding niagara / 後退するナイアガラ滝
 
@@ -56,7 +52,7 @@ Goro Falls in southern Aso caldera foothill / 阿蘇外輪山南麓，五老ヶ�
 
 滝の後退速度とその規定要因について、千葉県房総半島における滝について調査した（Hayakawa and Matsukura, 2003）。房総半島は、日本の中でも大きな隆起速度と侵食速度が観察される地域であり、滝の侵食速度も年間数cmから数10 cmと大きい。一方、滝の後退速度に影響する主要因は河川の侵食力と岩盤の抵抗力と考えられ、それぞれを表す計測可能なパラメータを現地または図上計測により取得し、これらから次元解析に基づいて導いた無次元パラメータと滝の後退速度との間には高い相関関係がみられた。これにより、滝の後退速度を推定する経験式が得られた。続いて、この式の妥当性や限界を、その他の多くの地域において検証を進めた。調査した滝は、華厳滝や称名滝といった日本国内の著名・無名な滝から、台湾、北米（コロラド、ナイアガラ）、スイスアルプスといった様々な地域にわたる。
 
-[![](/assets/img/49edae0c9093.png)](https://www.flickr.com/photos/tagiru/8327157045)
+[![](/assets/img/84db720a9b3c.png)](https://www.flickr.com/photos/tagiru/8327157045)
 
 Goro Falls / 阿蘇・五老ヶ滝
 
@@ -84,13 +80,9 @@ Goro Falls / 阿蘇・五老ヶ滝
 
 - Stark, C.P., Barbour, J.R., Hayakawa, Y.S., Hattanji, T., Hovius, N., Chen, H., Lin, C-W., Horng M-J., Xu K-Q., Fukahata, Y. (2010) The climatic signature of incised river meanders. Science, 327 (5972), 1497–1501. [https://doi.org/10.1126/science.1184406](https://doi.org/10.1126/science.1184406)
 
-[![](/assets/img/012b478e9ade.png)](https://www.flickr.com/photos/tagiru/5443973847)
+[![](/assets/img/a1f2984bfeb2.png)](https://www.flickr.com/photos/tagiru/5443973847)
 
 incised meander - 穿入蛇行する大井川
-
-Google サイト
-
-不正使用を報告
 
 ### high-definition topography {#high-definition-topography}
 
@@ -105,7 +97,7 @@ Google サイト
 [Hayakawa, Y.S., Oguchi, T., Saito, H., Kobayashi, A., Komatsu, G., Goto, K. (2015) Characteristics of erosional morphology by tsunami waves along the Sanriku Coast, northeastern Japan: Analysis using terrestrial laser scanning. Journal of Geography (Chigaku Zasshi), in press.]
 - Hayakawa, Y.S. (2013) Stability analysis of cliff face around Kegon Falls in Nikko, eastern Japan: an implication to its erosional mechanisms. [International Journal of Geosciences](http://www.scirp.org/journal/PaperInformation.aspx?PaperID=36028), 4 (6A2), 8–16. [doi:10.4236/ijg.2013.46A2002 [PDF]](http://dx.doi.org/10.4236/ijg.2013.46A2002)
 
-[![](/assets/img/f7592ac4091b.jpg)](https://www.flickr.com/photos/tagiru/7566839800)
+[![](/assets/img/942adec6295e.jpg)](https://www.flickr.com/photos/tagiru/7566839800)
 
 ##### Abukuma Cave / 福島・あぶくま洞
 
@@ -123,17 +115,13 @@ SfM多視点ステレオ写真測量（通称SfM）は、近年急速に地球�
 - 小花和宏之・早川裕弌・齋藤 仁・ゴメス クリストファー (2014) UAV-SfM手法と地上レーザ測量により得られたDSMの比較. 写真測量とリモートセンシング, 53 (2), 67–74. [ [CiNii](http://ci.nii.ac.jp/naid/40020108698) ]
 [Obanawa, H., Hayakawa, Y.S., Saito, H., Gomez, C. (2014) Comparison of DSMs derived from UAV-SfM method and terrestrial laser scanning. Journal of the Japan Society of Photogrammetry and Remote Sensing, 53 (2), 67–74.]
 
-[![](/assets/img/be4c6bc4b77b.jpg)onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/1016e7f475b34f27ae0d64dbed222bc6?utm_source=oembed&utm_medium=embed&utm_campaign=1016e7f475b34f27ae0d64dbed222bc6)
+[![](/assets/img/19e342086e72.jpg)onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/1016e7f475b34f27ae0d64dbed222bc6?utm_source=oembed&utm_medium=embed&utm_campaign=1016e7f475b34f27ae0d64dbed222bc6)
 
 [![](/assets/img/c8e90ac32662.jpg)onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/458f6ef68b364d7a90edf6b4a81129eb?utm_source=oembed&utm_medium=embed&utm_campaign=458f6ef68b364d7a90edf6b4a81129eb)
 
 #### desktop laser scanning / 卓上レーザ計測
 
 Hayakawa, Y., Oguchi, T. (2005) Evaluation of gravel sphericity and roundness based on surface-area measurement with a laser scanner. Computers & Geosciences, 31 (6), 735–741. [doi:10.1016/j.cageo.2005.01.004](http://dx.doi.org/10.1016/j.cageo.2005.01.004)
-
-Google サイト
-
-不正使用を報告
 
 ### geoarchaeology {#geoarchaeology}
 
@@ -172,10 +160,6 @@ Naryn, Issyk-Kul
 Sulaymaniyah
 
 [Zagros Piedmont Prehistoric Project](https://zpp-project.blogspot.com/)
-
-Google サイト
-
-不正使用を報告
 
 ## grants {#grants}
 
@@ -272,11 +256,6 @@ Google サイト
 - 2025年12月－2029年3月 日本学術振興会・スイスとの国際共同研究プログラム「気候変動が山岳域の土砂動態へ与える影響の総合理解―スイス・日本の比較研究―」（代表：静岡大学・今泉文寿）
 - 2026年4月－2030年3月 日本学術振興会・科学研究費補助金・基盤研究（B）（26K03145）「[脱炭素化困難分野における残余排出の定量化とその削減方策の評価](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K03145/)」（代表：北海道大学・大城 賢）
 - 2026年6月－2027年3月 三島海雲記念財団・学術研究奨励金・人文科学部門「[中央アジアにおける拝火儀礼の起源と展開に関する実証的研究](https://www.mishima-kaiun.or.jp/works/works-2427/)」（代表：金沢大学・久米正吾）
--
-
-Google サイト
-
-不正使用を報告
 
 ## reviews {#reviews}
 
@@ -291,7 +270,3 @@ review and editorial history for journal articles and book chapters
 ### journals served as editor
 
 Progress in Earth and Planetary Science (4), Natural Hazards and Earth System Sciences (4), E-journal GEO (1), Geomorphology (5)
-
-Google サイト
-
-不正使用を報告
