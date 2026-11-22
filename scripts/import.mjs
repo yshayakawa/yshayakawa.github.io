@@ -133,8 +133,9 @@ function rewriteLinks(md, pre) {
 // A page is "paired" when it has both Japanese-headed and English-headed H2 sections
 // (e.g. "professional experience" / "職歴"). Then /jp/ gets the Japanese sections and
 // /en/ the English ones; neutral sections and the lead go to both. Pages without such
-// pairs are copied as they are to both languages. In an English-headed section that mixes
-// pure-Japanese and pure-English blocks (e.g. lab members), blocks are split by language too.
+// pairs are copied as they are to both languages. An English-headed section that mixes
+// pure-Japanese and pure-English blocks (e.g. lab members) is kept on both sides and its
+// blocks are split by language.
 const CJK = /[぀-ヿ㐀-鿿]/;
 const plain = (s) => s.replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\]\([^)]*\)/g, ']').replace(/https?:\/\/\S+/g, '').replace(/[#*>|\-\[\]_]/g, ' ');
 function kind(s) {
@@ -143,18 +144,24 @@ function kind(s) {
   return j && !e ? 'ja' : e && !j ? 'en' : j && e ? 'mix' : 'none';
 }
 const headKind = (line) => (CJK.test(line) ? 'ja' : /[A-Za-z]/.test(line) ? 'en' : 'none');
+const HEADJP = { 'current Members': '現メンバー' };
+const bodyKinds = (sec) => sec.split(/\n{2,}/).slice(1).map(kind);
+const isMixed = (sec) => { const ks = bodyKinds(sec); return ks.includes('ja') && ks.includes('en'); };
 function blockFilter(sec, lang) {
   const blocks = sec.split(/\n{2,}/);
-  const ks = blocks.map((b, i) => (i === 0 ? 'head' : kind(b)));
-  if (!(ks.includes('ja') && ks.includes('en'))) return sec;
   const drop = lang === 'jp' ? 'en' : 'ja';
-  return blocks.filter((b, i) => ks[i] !== drop).join('\n\n') + '\n\n';
+  let out = blocks.filter((b, i) => i === 0 || kind(b) !== drop).join('\n\n') + '\n\n';
+  if (lang === 'jp') out = out.replace(/^## (.*)$/m, (m, h) => '## ' + (HEADJP[h.trim()] || h));
+  return out;
 }
 function forLang(md, lang) {
   const parts = md.split(/^(?=## )/m).map((p) => ({ p, h: p.startsWith('## ') ? headKind(p.split('\n')[0]) : null }));
   if (!(parts.some((x) => x.h === 'ja') && parts.some((x) => x.h === 'en'))) return md;
   const other = lang === 'jp' ? 'en' : 'ja';
-  return parts.filter((x) => x.h !== other).map((x) => (x.h === 'en' ? blockFilter(x.p, lang) : x.p)).join('');
+  return parts
+    .filter((x) => x.h !== other || (x.h === 'en' && isMixed(x.p)))
+    .map((x) => (x.h === 'en' && isMixed(x.p) ? blockFilter(x.p, lang) : x.p))
+    .join('');
 }
 
 // photographs: thumbnails in a grid (albums, then the dated archive)
