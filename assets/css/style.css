@@ -19,7 +19,7 @@ a:hover, a:active { color: #f71c54; text-decoration: none; }
 
 /* rows */
 .row1 { background: #fff; border-top: 5px solid #777; }
-.row2 { background: #777; }
+.row2 { background: #fff; }
 .row3 { background: #fff; }
 .row4 { background: #202020; color: #999; }
 .row4 a, .row4 a:visited { color: #bbb; }
@@ -34,15 +34,15 @@ a:hover, a:active { color: #f71c54; text-decoration: none; }
 #header hgroup h2 { margin: 2px 0 0; font-size: 13px; font-weight: normal; font-style: italic; color: #999; }
 #header .affil { margin: 12px 0 0; font-size: 13px; color: #666; line-height: 1.6; }
 
-/* top navigation */
-#topnav { padding-top: 0; padding-bottom: 0; }
+/* top navigation: the gray band is as wide as the content (960px), not the window */
+#topnav { background: #777; padding-top: 0; padding-bottom: 0; }
 #topnav ul { margin: 0; padding: 0; list-style: none; }
 #topnav > ul > li { display: inline-block; position: relative; margin-right: 22px; text-transform: uppercase; }
 #topnav a, #topnav a:visited { display: block; padding: 12px 0; color: #fff; text-decoration: none; }
 #topnav a:hover, #topnav li.active > a { color: #000; }
 #topnav ul ul {
-  display: none; position: absolute; left: 0; top: 100%; z-index: 100;
-  min-width: 190px; background: #777; padding: 0; border-bottom: 1px solid #aaa;
+  display: none; position: absolute; left: -12px; top: 100%; z-index: 100;
+  min-width: 220px; background: #777; padding: 0; border-bottom: 1px solid #aaa;
 }
 #topnav li:hover > ul { display: block; }
 #topnav ul ul li { display: block; text-transform: none; margin: 0; }
@@ -52,11 +52,15 @@ a:hover, a:active { color: #f71c54; text-decoration: none; }
 #container { padding-top: 36px; padding-bottom: 48px; }
 #container h1.pagetitle { font-size: 22px; margin: 0 0 24px; padding: 2px 0 4px 2px; border-bottom: 1px solid #ccc; color: #666; }
 #container h2 { font-size: 18px; margin: 36px 0 14px; padding: 4px 0 3px 8px; background: #ddd; font-weight: normal; }
-#container h3 { font-size: 15px; margin: 22px 0 8px; }
+#container h3 { font-size: 16px; margin: 28px 0 8px; padding-bottom: 2px; border-bottom: 1px solid #ddd; }
+#container h4 { font-size: 15px; margin: 22px 0 8px; }
+#container h5, #container h6 { font-size: 14px; margin: 16px 0 6px; }
 #container p { margin: 10px 0; }
 #container ul { padding-left: 1.6em; }
 #container li { margin: 4px 0; }
+#container img { max-width: 100%; height: auto; }
 #container .ja { color: #444; }
+#container { overflow-wrap: anywhere; }
 
 .notice { padding: 10px 14px; background: #f3f3f3; border-left: 4px solid #999; color: #555; }
 .small { font-size: 12px; }

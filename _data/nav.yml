@@ -2,15 +2,6 @@
   url: /
 - title: about
   url: /about/
-- title: lab members
-  url: /lab-members/
-- title: education
-  url: /education/
-  children:
-    - title: lectures
-      url: /education/#lectures
-    - title: theses
-      url: /education/#theses
 - title: research
   url: /research/
   children:
@@ -23,7 +14,7 @@
 - title: publications
   url: /publications/
   children:
-    - title: journal
+    - title: journal articles / book chapters
       url: /publications/#journal
     - title: presentations
       url: /publications/#presentations
@@ -31,6 +22,17 @@
       url: /publications/#books
     - title: other publications
       url: /publications/#other
+- title: education/outreach
+  url: /education/
+  children:
+    - title: lectures
+      url: /education/#lectures
+    - title: thesis reviews
+      url: /education/#theses
+    - title: outreach
+      url: /education/#outreach
+- title: lab members
+  url: /lab-members/
 - title: photographs
   url: /photographs/
 - title: misc

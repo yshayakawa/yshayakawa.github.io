@@ -13,3 +13,7 @@ formspree_id: ""
 
 exclude:
   - README.md
+  - scripts
+  - node_modules
+  - package.json
+  - package-lock.json
