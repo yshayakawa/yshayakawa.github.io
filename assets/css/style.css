@@ -1,0 +1,92 @@
+/* Style inspired by the legacy CSIS page (gray nav bar on white, Century Gothic, #f71c54 hover). */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+  background: #202020;
+  font-family: "Century Gothic", Tahoma, "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.wrap { width: 960px; max-width: 100%; margin: 0 auto; padding-left: 12px; padding-right: 12px; }
+
+a { color: #333; text-decoration: underline; }
+a:visited { color: #666; }
+a:hover, a:active { color: #f71c54; text-decoration: none; }
+
+/* rows */
+.row1 { background: #fff; border-top: 5px solid #777; }
+.row2 { background: #777; }
+.row3 { background: #fff; }
+.row4 { background: #202020; color: #999; }
+.row4 a, .row4 a:visited { color: #bbb; }
+.row4 a:hover { color: #f71c54; }
+
+/* header */
+#header { padding-top: 24px; padding-bottom: 28px; }
+#header hgroup h1 { margin: 0; font-size: 28px; font-weight: normal; line-height: 1.3; }
+#header hgroup h1 a, #header hgroup h1 a:visited { color: #666; text-decoration: none; }
+#header hgroup h1 a:hover { color: #f71c54; }
+#header hgroup h1 .ja { font-size: 22px; margin-left: 10px; }
+#header hgroup h2 { margin: 2px 0 0; font-size: 13px; font-weight: normal; font-style: italic; color: #999; }
+#header .affil { margin: 12px 0 0; font-size: 13px; color: #666; line-height: 1.6; }
+
+/* top navigation */
+#topnav { padding-top: 0; padding-bottom: 0; }
+#topnav ul { margin: 0; padding: 0; list-style: none; }
+#topnav > ul > li { display: inline-block; position: relative; margin-right: 22px; text-transform: uppercase; }
+#topnav a, #topnav a:visited { display: block; padding: 12px 0; color: #fff; text-decoration: none; }
+#topnav a:hover, #topnav li.active > a { color: #000; }
+#topnav ul ul {
+  display: none; position: absolute; left: 0; top: 100%; z-index: 100;
+  min-width: 190px; background: #777; padding: 0; border-bottom: 1px solid #aaa;
+}
+#topnav li:hover > ul { display: block; }
+#topnav ul ul li { display: block; text-transform: none; margin: 0; }
+#topnav ul ul a { padding: 7px 12px; }
+
+/* content */
+#container { padding-top: 36px; padding-bottom: 48px; }
+#container h1.pagetitle { font-size: 22px; margin: 0 0 24px; padding: 2px 0 4px 2px; border-bottom: 1px solid #ccc; color: #666; }
+#container h2 { font-size: 18px; margin: 36px 0 14px; padding: 4px 0 3px 8px; background: #ddd; font-weight: normal; }
+#container h3 { font-size: 15px; margin: 22px 0 8px; }
+#container p { margin: 10px 0; }
+#container ul { padding-left: 1.6em; }
+#container li { margin: 4px 0; }
+#container .ja { color: #444; }
+
+.notice { padding: 10px 14px; background: #f3f3f3; border-left: 4px solid #999; color: #555; }
+.small { font-size: 12px; }
+.cols { display: flex; flex-wrap: wrap; gap: 32px; }
+.cols > div { flex: 1 1 300px; }
+
+/* contact */
+.mapbox iframe { width: 100%; height: 320px; border: 1px solid #ccc; }
+address { font-style: normal; }
+
+form.contact label { display: block; margin: 14px 0 4px; font-size: 13px; color: #555; }
+form.contact input[type=text],
+form.contact input[type=email],
+form.contact textarea {
+  width: 100%; max-width: 560px; padding: 8px 10px; border: 1px solid #bbb; font: inherit; background: #fff;
+}
+form.contact textarea { height: 160px; }
+form.contact button {
+  margin-top: 16px; padding: 8px 28px; border: 0; background: #777; color: #fff; font: inherit; cursor: pointer;
+}
+form.contact button:hover { background: #f71c54; }
+.hp { position: absolute; left: -9999px; }
+
+/* footer */
+#footer { padding-top: 24px; padding-bottom: 24px; font-size: 12px; }
+#footer p { margin: 4px 0; }
+
+@media (max-width: 700px) {
+  #topnav > ul > li { margin-right: 14px; }
+  #topnav ul ul { position: static; display: none; }
+  #header hgroup h1 { font-size: 22px; }
+  #header hgroup h1 .ja { font-size: 18px; }
+}

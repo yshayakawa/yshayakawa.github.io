@@ -1,0 +1,15 @@
+title: "Yuichi S. HAYAKAWA | 早川裕弌"
+description: "Personal website of Yuichi S. Hayakawa, Environmental Geography, Hokkaido University"
+url: "https://yshayakawa.github.io"
+baseurl: ""
+lang: ja
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+# 問い合わせフォーム (Formspree) のフォームIDをここに入れると有効になります。
+# 例: formspree_id: "xabcdefg"
+formspree_id: ""
+
+exclude:
+  - README.md

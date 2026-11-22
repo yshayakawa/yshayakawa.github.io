@@ -1,0 +1,39 @@
+- title: home
+  url: /
+- title: about
+  url: /about/
+- title: lab members
+  url: /lab-members/
+- title: education
+  url: /education/
+  children:
+    - title: lectures
+      url: /education/#lectures
+    - title: theses
+      url: /education/#theses
+- title: research
+  url: /research/
+  children:
+    - title: topics
+      url: /research/#topics
+    - title: grants
+      url: /research/#grants
+    - title: reviews
+      url: /research/#reviews
+- title: publications
+  url: /publications/
+  children:
+    - title: journal
+      url: /publications/#journal
+    - title: presentations
+      url: /publications/#presentations
+    - title: books
+      url: /publications/#books
+    - title: other publications
+      url: /publications/#other
+- title: photographs
+  url: /photographs/
+- title: misc
+  url: /misc/
+- title: contact
+  url: /contact/
