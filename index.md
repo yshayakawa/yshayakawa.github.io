@@ -4,6 +4,22 @@ title: home
 permalink: /
 ---
 
+<div class="banner" style="margin:0 0 1.2em">
+  <img id="banner-img" src="{{ '/assets/legacy/rotate/100207_meander_oi_950x230.jpg' | relative_url }}" alt="" style="width:100%;height:auto;display:block">
+</div>
+<script>
+(function () {
+  var imgs = [
+    "{{ '/assets/legacy/rotate/100207_meander_oi_950x230.jpg' | relative_url }}",
+    "{{ '/assets/legacy/rotate/111128_aneyoshi_950x230.jpg' | relative_url }}",
+    "{{ '/assets/legacy/rotate/08032627_niagara_950x230.jpg' | relative_url }}"
+  ];
+  var el = document.getElementById('banner-img'), i = Math.floor(Math.random() * imgs.length);
+  el.src = imgs[i];
+  setInterval(function () { i = (i + 1) % imgs.length; el.src = imgs[i]; }, 6000);
+})();
+</script>
+
 ## research interests
 
 Geomorphology, Geoarchaeology and Geospatial Information Analysis &ndash; various fields of study in physical geography, geosciences and geospatial information science (GIS) are of my research interest.
@@ -22,6 +38,7 @@ Geomorphology, Geoarchaeology and Geospatial Information Analysis &ndash; variou
 - [Faculty of Environmental Earth Science / 地球環境科学研究院](https://www.ees.hokudai.ac.jp/index.php?easiestml_lang=en)
 - [Hokkaido University / 北海道大学](https://www.global.hokudai.ac.jp/)
 - [Geomorphology (Elsevier)](https://www.sciencedirect.com/journal/geomorphology)
+- CV (PDF, 2017-01): [CV_hayakawa_170123.pdf]({{ '/assets/files/CV_hayakawa_170123.pdf' | relative_url }})
 
 ## contact
 
