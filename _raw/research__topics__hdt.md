@@ -11,7 +11,7 @@
 [Hayakawa, Y.S., Oguchi, T., Saito, H., Kobayashi, A., Komatsu, G., Goto, K. (2015) Characteristics of erosional morphology by tsunami waves along the Sanriku Coast, northeastern Japan: Analysis using terrestrial laser scanning. Journal of Geography (Chigaku Zasshi), in press.]
 - Hayakawa, Y.S. (2013) Stability analysis of cliff face around Kegon Falls in Nikko, eastern Japan: an implication to its erosional mechanisms. [International Journal of Geosciences](http://www.scirp.org/journal/PaperInformation.aspx?PaperID=36028), 4 (6A2), 8–16. [doi:10.4236/ijg.2013.46A2002 [PDF]](http://dx.doi.org/10.4236/ijg.2013.46A2002)
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQcFxgrW-B55wXyGE7R2OxUe3AKf42GtTnXFY_s6HGbYnzKXNhvTzZnRBYH7k0KN23PTHx7jfV0s-ZlhMHtHXsTwwy_G48FEVH4y5X2lweU47AJGxrExm9FGA6B-TagsMLfsOprN9sfh23__rURiw_-6B9AFn4fcoQqVE91NowdVYjnWOLjOmM7bIIkKc0os-CKSgPiuA_H1MLya-GxmGmvvRBAzuFqurCeyHKmdro4=w1280)](https://www.flickr.com/photos/tagiru/7566839800)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQcK-TR7fqVRWbzWKa-zDqT87biwIZ8zWQwYroEe5Tz3e-aR6UqpCXVuei3YUhEjR6-wMTqTHhDs_l56rVYhOZG8-MCocy5fV9WFn36FG2z-h2qk60T-0Ocx2TQtXmbUol-fGtMW1FkUbU7ydyDLeuFGtJdDmEu_67pNTLz8WwekcfBSV2sVxrslTrpy9Lf3oqEJuwrcQ9naRK9fDc4h5PsmlQehSUFcNeZ_OkzTzNU=w1280)](https://www.flickr.com/photos/tagiru/7566839800)
 
 ### Abukuma Cave / 福島・あぶくま洞
 

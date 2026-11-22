@@ -12,7 +12,7 @@ permalink: /lab-members/
 
 Please refer to the page of our laboratory, "[Environmental Geography](https://envgeo.ees.hokudai.ac.jp/members/)".
 
-[![](/assets/img/71e48edb7f61.png)](https://envgeo.ees.hokudai.ac.jp/members)
+[![](/assets/img/4a4356402661.png)](https://envgeo.ees.hokudai.ac.jp/members)
 
 ## ポスドク、大学院生募集中
 
