@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
+// (re-run marker: Dropbox manifest added)
 const BASE = 'https://sites.google.com/view/yshayakawa/';
 
 // Runs inside the page: converts the rendered Google Sites page to Markdown.
