@@ -85,5 +85,34 @@
   document.addEventListener('click', function (e) { if (!e.target.closest('#topnav')) closeAll(null); });
 })();
 </script>
+{% if page.page_class == 'pubs' %}
+<script>
+/* Publications: numbers are generated here. Within each H2 group the top (newest) entry gets the largest number, the bottom one gets 1.
+   Hand-written numbers (<span class="no">) are ignored, so entries can be added, removed or moved by editing the Markdown only. */
+(function () {
+  var main = document.getElementById('container');
+  if (!main) return;
+  var groups = [[]];
+  Array.prototype.forEach.call(main.children, function (el) {
+    if (el.tagName === 'H2') { groups.push([]); return; }
+    if (el.tagName === 'UL') {
+      el.classList.add('numlist');
+      Array.prototype.forEach.call(el.children, function (li) { if (li.tagName === 'LI') groups[groups.length - 1].push(li); });
+    }
+  });
+  groups.forEach(function (lis) {
+    var n = lis.length;
+    lis.forEach(function (li) {
+      var old = li.querySelector(':scope > span.no');
+      if (old) old.remove();
+      var s = document.createElement('span');
+      s.className = 'no';
+      s.textContent = n--;
+      li.insertBefore(s, li.firstChild);
+    });
+  });
+})();
+</script>
+{% endif %}
 </body>
 </html>
