@@ -12,10 +12,13 @@ page_class: pubs
 ### 受理済・印刷中
 
 - <span class="no">135</span> 小倉拓郎・早川裕弌・山内啓之・青木賢人・田村裕彦・林 紀代美・中村洋介 (accepted) 高精細地形教育リソースの構築と地形・地図教育への活用. 地図.
-- <span class="no">134</span> Imaizumi, F., Hayakawa, Y. S., Tagliaferri, A., Matsuoka, N., Stoffel, M. (accepted) Climate impacts on debris flow activity in a humid cold region: Mt. Rishiri, northern Japan, Geomorphology.
 - <span class="no">133</span> Hayakawa, Y.S., Iizuka, K., Kasai, M., Oguchi, T., Micu, M., Dragut, L. (in press) Multi-platform 3D topographic measurements of a landslide in Muscel catchment, Buzau Subcarpathians, Romania toward repeated survey-based monitoring. International Journal of Erosion Control Engineering.
 - <span class="no">132</span> 早川裕弌・小倉拓郎 (accepted) 地形・地理アウトリーチ活動の教育的有効性：高精細地形情報を用いたダンボール地形模型制作の実践例の分析. 地理学論集. [[著者最終稿](https://www.dropbox.com/scl/fi/e06xy6brdol6hb6clnlrt/_-_2026acc_-_-_260908.pdf?rlkey=2mazpgyscfwre0wlop6bshayp&dl=0)]
 {: .numlist}
+
+### 2027
+
+- <span class="no">134</span> Imaizumi, F., Hayakawa, Y. S., Tagliaferri, A., Matsuoka, N., Stoffel, M. (accepted) Climate impacts on debris flow activity in a humid cold region: Mt. Rishiri, northern Japan, Geomorphology, 518, 110615. [https://doi.org/10.1016/j.geomorph.2026.110615](https://doi.org/10.1016/j.geomorph.2026.110615) [tentative access](https://authors.elsevier.com/c/1oAIr,3sl46hzh)
 
 ### 2026
 
