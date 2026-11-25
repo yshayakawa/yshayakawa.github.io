@@ -174,7 +174,7 @@ function bracketGroups(s) {
     if (s[i] !== '[') continue;
     let d = 0, j = i;
     for (; j < s.length; j++) { if (s[j] === '[') d++; else if (s[j] === ']') { d--; if (d === 0) break; } }
-    if (j >= s.length) break;
+    if (j >= s.length) { out.push({ start: i, end: s.length, inner: s.slice(i + 1) }); break; } // unclosed bracket: runs to the end
     if (s[j + 1] === '(') {
       let p = 0, k = j + 1;
       for (; k < s.length; k++) { if (s[k] === '(') p++; else if (s[k] === ')') { p--; if (p === 0) break; } }
@@ -303,7 +303,7 @@ const fm = (title, permalink, lang, pageClass) => '---\nlayout: default\ntitle: 
 // Google Sites footer ("Google サイト / 不正使用を報告") and empty list items ("-" alone would turn the previous line into a setext h2).
 const FOOTER = /\n*Google (?:サイト|Sites)\s*\n+\s*(?:不正使用を報告|Report abuse)\s*$/;
 const strip = (md) => md.replace(FOOTER, '').replace(/^[ \t]*-[ \t]*$/gm, '').replace(/\n{3,}/g, '\n\n').trim();
-const dropH1 = (md) => md.replace(/^# .*\n+/, '');
+const dropH1 = (md) => md.replace(/^# .*(?:\n+|$)/, '');
 const clean = (md) => dropH1(strip(md)).trim();
 const demote = (md, k) => md.replace(/^(#{1,6}) /gm, (m, h) => '#'.repeat(Math.min(6, h.length + k)) + ' ');
 const sec = (title, id, level, md) => '#'.repeat(level) + ' ' + title + ' {#' + id + '}\n\n' + md.trim() + '\n\n';
