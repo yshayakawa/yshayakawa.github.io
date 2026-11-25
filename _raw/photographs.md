@@ -2,37 +2,37 @@
 
 ## albums
 
-[![TJGU cover photos](https://sites.google.com/sitesv-images-rt/APXyLQeL5exyiq8wJuiFDSFhpAOp5I1-UH64mCnsPlsZs3lpMEmTUFW85UNreWV-4Yw12QVmi4VjKdbcWquOIn3tBpg45-Wkgir5NPasvkPCG73RNq6P8sK1vrHE1FqNZrcU3OEdrUQsprx2FVAb4Zi-d5gW-YdneaL91EmwK3yhM-n3V0Rh5zqXN2esKEIgLh8omXtAuLRnPoMA28yxePk=w1280)](https://photos.app.goo.gl/69ULAUmTvrY3TzWm8)
+[![TJGU cover photos](https://sites.google.com/sitesv-images-rt/APXyLQdbGe1lE2KXmnG37IKk6sarhcXmZGNeD2wFigO7VrZPil78lACRz8trgTAzGKGmp8dxAbmzqbVBQwirjSSPGrOGzgeoxIHBk5dztG-IhUHWfRH_qzHCkEmUYal6rNrRjM5BPOSE8FKqoItAyIw9SAcYqkyn0Wd75_9faF7eTmzXIPWdbAkCEBDec9299oslTHKg5Hy6YQgUEoNXJlE=w1280)](https://photos.app.goo.gl/69ULAUmTvrY3TzWm8)
 
-[![mt. fuji](https://sites.google.com/sitesv-images-rt/APXyLQfGA7VgJxZOsUzj--fD6uPczFFCEmBZfe1vL9Gy0ZCcHmSuBgIaz33Cvq3mxOI3Zu6RDouqLY5lC4I_qgfIf5rgJ6_MR3B0RgImaL95_3URJKG4br_k_s08nMST0GTugfWyIQE1W8pqCEOLo_jix3u9GRVwE-0k_7UK-2pZ_GbfmTTORKw5V7UdOXQAtl-39ZlIExG2nms4tJrI=w1280)](https://photos.app.goo.gl/9huJq4XtYeKzkixn7)
+[![mt. fuji](https://sites.google.com/sitesv-images-rt/APXyLQdL17j4166hvGI4g4w4YXRv9Lz-Z9C914QY9hZJxxNjnB4pLi7jZtUAHUhMPI2EwWYVnGxvOtQ37hkCeB5pzB1YCT1rJTjv9VLDyFAGyWVPzI_dRZtHmTFtGDpUxzXliXKefrnFiZxkd70Bdxl_FhYHJzum_VsZakJOTw8gx4XAJIKsglpiVnO7_b6LGbbrCCBy6-U2p1qhuGSC=w1280)](https://photos.app.goo.gl/9huJq4XtYeKzkixn7)
 
-[![airplane window views](https://sites.google.com/sitesv-images-rt/APXyLQcV3G4XbRh6iU_JJZdQZstXcbmCns5vC_z90nIaBSJ0X30HJWKS9bLTrlEXYvIbPvXac-oN-hKWv9cH6ILRlFUd6-aa9tIEAJ50IFG7s0hR4dR3NKymDOky0CGRVTEgD-w_oEFzsO0n58vI0QC9b03RlYvDv0AyJ51mK_hgXXfohzCx_DsCZDvyeHOs5WClHOLohU_G6sIOMR8SL6g=w1280)](https://photos.app.goo.gl/ps2yHeC9YDULMTFa8)
+[![airplane window views](https://sites.google.com/sitesv-images-rt/APXyLQcerA2zWb7kt4bfK825Jlx2oC4UsRnBtKhJoeCmjghaicZflXGfYACMLzURjXiXNcoQWcf54S6z5u3awWVFzYYK9IDk3czzo_4VMMToUHOgNbOAphRLxPchrbrqCwFrB0pc9zeTEsiAcvQ6JCyh_pdI-kBecN2qOKAzChKQqumQQUYDFPGv30wr_XpaOjCwYj6HiqJzpw3P52YCPSk=w1280)](https://photos.app.goo.gl/ps2yHeC9YDULMTFa8)
 
-[![sky](https://sites.google.com/sitesv-images-rt/APXyLQfq1268d0TqjGJ5Y47nck7cT0DDSjIq9s6w_Ie1yBgW6m98EQQBX48SyS_0Ky8xF-aZACl7ib0-uz8kL9oUnGFKv5mUi7UIC6lByC7QP8ofH1UPtR-l6YWncVnN_lki3YqbjcRjvLlZjkscRFRE6q7U5XMAsEnm3WrangmkwxoQsV-uzIQr7L0kqDtU5berXW4-3rmIqW-VFvn1=w1280)](https://photos.app.goo.gl/yhvLytQMoZprFotZ7)
+[![sky](https://sites.google.com/sitesv-images-rt/APXyLQdo8tNBxqmhfVVv8swQLwP1uqZlvG5Fqr0az85X0DoGQAz97KxisSOrf8SFSh8169YuPdyy-M3tPoAOx96dv08eVfR1T4gkkQ5PMqMWT7WPh62FEMa9fQ14O-HVXuapC72nzDOBDfCaA88GFfAg0qYLcs4QM6HzfIGf7qE_RHV-0qWA6Sw4OBGVG1LqSwoWQ7AFtjNTKDKQ9lSR=w1280)](https://photos.app.goo.gl/yhvLytQMoZprFotZ7)
 
-[![waterfalls](https://sites.google.com/sitesv-images-rt/APXyLQfYOWYF-gVdw9seOH0IYp5YvdprVo5Ev3NBnthU1OAmqRoLY2YAomcSItxHwYWfpDvwFJLTk1qY33CT4047mfR8I3MADAlEJoaGs0MHpPHkNCHbYBrix_OWiC0rQtMpBUM652ea73Pdd86qDVwLtr42xacJD1KLnS77bxCBUIiAsiF8PRYrdqRJjY1awuS6SMpcy0Sons6-67WG=w1280)](https://photos.app.goo.gl/2rG3oDPNzCWQzLkN6)
+[![waterfalls](https://sites.google.com/sitesv-images-rt/APXyLQekVKTwBewA3Z0lsoRK2tSgaL-2cdFncnU5RUMGmiXHkwkODFfviOc4rffyYMwSe0RS7XgpjkKHZ-3avynf6kDPzcMpEqmR0rC9SO8a_jaUaYG6EgYNVNtVP1I8wrgAVd_T7QPTsQhgytplsjkexKZn-fHtZHq2AR1JZP_v5sT0A4vG0XNKgsEKSxRXXd7zJUtmLhVq9x-gplBq=w1280)](https://photos.app.goo.gl/2rG3oDPNzCWQzLkN6)
 
 ## archive
 
-![](https://sites.google.com/sitesv-images-rt/APXyLQf0jaXoBLrrq3HNi40mnvZhe5RqmE50Xyl5kgsndiaQNb8ZDqoASwqb9xmquCvgNTiqobxC2LUinAEsJiJogKgrVDiMHZ9eSWN-N8VKuYvn6w0MThOqVQv_d0Fnju_nxvWd72vi8AB3KaISd_FyHPmcbRyYLV3dHZDEcTU=w1280)
+![](https://sites.google.com/sitesv-images-rt/APXyLQdXGxCA3TGzKY47Y2XiZA2pj6rY9EO9v0NdywNGEfmFlqkQ9nInh9bjsojXPJe98t0nXe_WS7R8tt6HRYmzNAjmlGiZF5jNcmGktYX5UpZ1kTDb0zDFOT4-RoN5RmXGNm8BqYY0m6hXkyPks9uoqDXbG38IcXyDrE6AQv4=w1280)
 
 ### 2010
 
 [Japanese Geomorphological Union 2010 Joint Meeting in Ankara, Turkey - September 2010](http://www.csis.u-tokyo.ac.jp/~hayakawa/photo/2010-09-12-17_JGU_Ankara/)
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQdYojcjHg3Ynd_gdQZScpsyv1NxVLG782mN3ZgLEl9EG-yswQ6RghYRJc2QS8ZQgqgtEShvZkziQ651hg1A2TFXtmHWhSRGE-MItCRtRqDQkfMFxk5kYDnxLJbxqsNkKep6mRRcUlCFmnYAb5Xv24g1K3Vm4zX-nU6CwsbMQWbIRr9NpUwvLg6ENh001DBjTgGRwyCBFmIuRjgeUMQ=w1280)](https://goo.gl/photos/7uk4kUBkkh2rXchQ6)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQdJicl0gmlgC1yid2Eb31ZMda0iUidl3zHtdD4YgzI3Wf2lkhS2oDFzKIwZVd7Zoza4orD8DKJupW2y5AemI3MjCrIR9HV15y1XuWDDEbvyTBDSwgpJCIvb0u0JtLnKSi2HasQDaq5z1dMeAd_5f4uwjn3K_z-xFS9skgjFN8V3phqg3I1zZFcj9D9Q8A0chVkc3FICtLI3_RGyDlA=w1280)](https://goo.gl/photos/7uk4kUBkkh2rXchQ6)
 
 ### 2010
 
 [during archaeological survey in Raqqa - March 2010](https://goo.gl/photos/7uk4kUBkkh2rXchQ6)
 
-![](https://sites.google.com/sitesv-images-rt/APXyLQeXT1Tey_PDdkKKXa-sb77PFPZ0gmJeZuLYcDNVkedNvorLYfika-EWANhJO92B0XuqPLjVrx3f7OZkN88MIcNYg3MwrShRUjtibPYOxuAGyQhmmSuNYAGWk6lYc2bXFjP6EpNKlZ0AwwkJWPJIAnzXDob19LeEmI55nLIrevjRH9Vp-r-9GS_znquW_wVvSomkAtIl7lqpXYO-V8o=w1280)
+![](https://sites.google.com/sitesv-images-rt/APXyLQdeXPgMMYBqGqr3slfpB1aAZj6xahDSkbYUH26IIHf3K3_EKyq9nLDARvYJgxtPexbVd-Ft2_pv8LakWNKDJ6BNOcXmEoYPZuv6o4mb21iaOntvIgfR8ZBP9BkA2Qkhcfpssk-4X_5C4yZRVCdQt3WjtGb-DJ03jHwIPTblHGbTawSQMiYiMmWj9RDcas-sCrT9HQu4I1k53NOaDHQ=w1280)
 
 ### 2009
 
 [International Conference on Geomorphology in Melbourne, Australia - July 2009](http://www.csis.u-tokyo.ac.jp/~hayakawa/photo/ICG_Melbourne_2009/)
 
-![](https://sites.google.com/sitesv-images-rt/APXyLQcANlw-zzFjnIH8twyOYnCZhOsRlF46-Ok9qgW9UMBs6lAYxEG9EWTmwM--xvc7AMRj6l26OeBCDAnd1fUnujFZw0qcJvMJu8Yv2-aMFZVDljqx2JYvYlaA2IHbLIIu9mylyId3TS9EH1QJMsBvuTyMy9Yj_r1d8E3xF2w=w1280)
+![](https://sites.google.com/sitesv-images-rt/APXyLQdx5YtcGMy4aqWhxtbmKeVp5x3Wz7Y7QwBL1N3w7Qtnxt4xAVFX2iCjWEnvTA4uZR7zVT0iEOrjJsAPBfPvgb_fU4zzEIHi_lzPhVcL0RH2EgzdG1q_jYXfnXUGb9HVS1cvkIZ0ttW0ZACfR0fH9tblJ54Cwklh2TGNRaw=w1280)
 
 ### 2008
 

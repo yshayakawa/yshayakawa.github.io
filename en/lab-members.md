@@ -12,7 +12,7 @@ lang_dir: en
 
 Please refer to the page of our laboratory, "[Environmental Geography](https://envgeo.ees.hokudai.ac.jp/members/)".
 
-[![](/assets/img/54e321e0b01c.png)](https://envgeo.ees.hokudai.ac.jp/members)
+[![](/assets/img/4b24d5a5aa75.png)](https://envgeo.ees.hokudai.ac.jp/members)
 
 
 

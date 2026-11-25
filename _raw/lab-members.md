@@ -8,7 +8,7 @@
 
 Please refer to the page of our laboratory, "[Environmental Geography](https://envgeo.ees.hokudai.ac.jp/members/)".
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQco1AKy02SENviqPDxw1-vLBFU5qLum7zJSFrrobTtSszDjSb1oipwKZiOlSJTri2FlnmEqtm8k_6OJEedHIXDV8kntaTmukDtulvjecPt7rDMsJeCmAUL4cYhltOWCmV_b3V6SRhZALELOBJGdDE_t6IDajSbWj6wcQsimtdP1V9BCdKOltvi3IsHLV5AgTDa9C0GmKWHb9cy82_U9aMWwhLZPc8sCLsCY_cTZ=w1280)](https://envgeo.ees.hokudai.ac.jp/members)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQekQZZUryn-rL2WINzl74fw1HiYKgUOiu8gW2v88iJ1Wwlgq3bTWwRORVqU2-8jna2Zix9jPMpBA5iD7DABjodYtXGjWpcMFN8TIWUnA1gcnoaiwKW5BsmKB0LGMKap05QLfIglXukUMKVSKvsWDT85ZK7SG15A6XFxDFr8BC674_jRm7CcE9FhfsRmAOm2J15jPJqZ3tUJ2i-hN39aukGjlatD9ntQT_uJhqmG=w1280)](https://envgeo.ees.hokudai.ac.jp/members)
 
 ## ポスドク、大学院生募集中
 

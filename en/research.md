@@ -22,11 +22,11 @@ My current research explores landform evolution and geomorphological processes u
 
 河床遷急区間（河川縦断面形において部分的に急勾配で、侵食が活発な区間：峡谷や滝など）は、岩盤河川地形において重要な地形要素であるが、その広範囲にわたる分布についてはこれまでほとんど調べらてこなかった。本研究では、日本列島の山地岩盤河川における河床遷急区間の分布を、DEM（デジタル標高モデル）に基づくGISを用いた河床勾配計測により明らかにした。遷急区間は河川の上流域、河床勾配が急になっている部分、また主要河川どうしの合流点付近により多く存在し、これらは遷急区間が河川の水理的な作用により形成されていることを示唆する。さらに、遷急区間の出現頻度に典型的な値があることも明らかになった。一方、地質の遷急区間形成に対する影響は限られていることが示唆された。
 
-![](/assets/img/8a9e40672407.png)
+![](/assets/img/288a318a9c5a.png)
 
 density distribution of knickzones遷急区間マップ「日本列島滝だらけ」
 
-![distribution of knickzones in Kanto region, Japan](/assets/img/b54797520a68.png)
+![distribution of knickzones in Kanto region, Japan](/assets/img/ee929527b2f6.png)
 
 distribution of knickzones in Kanto region, Japan
 
@@ -40,7 +40,7 @@ distribution of knickzones in Kanto region, Japan
 
 岩盤河川における滝や遷急点の後退は河川地形の発達において重要なプロセスの一つである。しかし、その詳細なメカニズムについては実は不明な部分も多い。典型的によく知られているのは、滝のキャップロック構造とその侵食モデルである。これは、「固い岩盤が滝を形作っている」という前提で、固い層の下位にある比較的軟らかい層が先に削られることにより、滝の後退が生じるといった考えである。ところが、その力学的な妥当性について、このキャップロックモデルのもととなったナイアガラフォールズで検証したところ、１）岩盤強度は新鮮な場合それほど差がないこと、２）滝面下部の実際の凹みに対して崖面は頑丈であり、キャップロックモデルであらわされるような突発的で大規模な崩落は生じにくいこと、すなわち、岩盤の風化と水流による侵食により、滝面の岩石が少しずつ剥離されていくことによりこの滝の後退が進行することがわかった。これは、滝の侵食メカニズムに関して新たな知見をもたらしたものである。
 
-[![](/assets/img/b9f54248c1e1.png)](https://www.flickr.com/photos/tagiru/15795228154)
+[![](/assets/img/848592bf92d8.png)](https://www.flickr.com/photos/tagiru/15795228154)
 
 receding niagara / 後退するナイアガラ滝
 
@@ -54,7 +54,7 @@ Goro Falls in southern Aso caldera foothill / 阿蘇外輪山南麓，五老ヶ�
 
 滝の後退速度とその規定要因について、千葉県房総半島における滝について調査した（Hayakawa and Matsukura, 2003）。房総半島は、日本の中でも大きな隆起速度と侵食速度が観察される地域であり、滝の侵食速度も年間数cmから数10 cmと大きい。一方、滝の後退速度に影響する主要因は河川の侵食力と岩盤の抵抗力と考えられ、それぞれを表す計測可能なパラメータを現地または図上計測により取得し、これらから次元解析に基づいて導いた無次元パラメータと滝の後退速度との間には高い相関関係がみられた。これにより、滝の後退速度を推定する経験式が得られた。続いて、この式の妥当性や限界を、その他の多くの地域において検証を進めた。調査した滝は、華厳滝や称名滝といった日本国内の著名・無名な滝から、台湾、北米（コロラド、ナイアガラ）、スイスアルプスといった様々な地域にわたる。
 
-[![](/assets/img/84e289808411.png)](https://www.flickr.com/photos/tagiru/8327157045)
+[![](/assets/img/68ba2caf192c.png)](https://www.flickr.com/photos/tagiru/8327157045)
 
 Goro Falls / 阿蘇・五老ヶ滝
 
@@ -82,7 +82,7 @@ Goro Falls / 阿蘇・五老ヶ滝
 
 - Stark, C.P., Barbour, J.R., Hayakawa, Y.S., Hattanji, T., Hovius, N., Chen, H., Lin, C-W., Horng M-J., Xu K-Q., Fukahata, Y. (2010) The climatic signature of incised river meanders. Science, 327 (5972), 1497–1501. [https://doi.org/10.1126/science.1184406](https://doi.org/10.1126/science.1184406)
 
-[![](/assets/img/3ad8ec49089e.png)](https://www.flickr.com/photos/tagiru/5443973847)
+[![](/assets/img/8acbd53c182a.png)](https://www.flickr.com/photos/tagiru/5443973847)
 
 incised meander - 穿入蛇行する大井川
 
@@ -99,11 +99,11 @@ incised meander - 穿入蛇行する大井川
 [Hayakawa, Y.S., Oguchi, T., Saito, H., Kobayashi, A., Komatsu, G., Goto, K. (2015) Characteristics of erosional morphology by tsunami waves along the Sanriku Coast, northeastern Japan: Analysis using terrestrial laser scanning. Journal of Geography (Chigaku Zasshi), in press.]
 - Hayakawa, Y.S. (2013) Stability analysis of cliff face around Kegon Falls in Nikko, eastern Japan: an implication to its erosional mechanisms. [International Journal of Geosciences](http://www.scirp.org/journal/PaperInformation.aspx?PaperID=36028), 4 (6A2), 8–16. [doi:10.4236/ijg.2013.46A2002 [PDF]](http://dx.doi.org/10.4236/ijg.2013.46A2002)
 
-[![](/assets/img/ac38e6b4aa25.jpg)](https://www.flickr.com/photos/tagiru/7566839800)
+[![](/assets/img/3331d85f9373.jpg)](https://www.flickr.com/photos/tagiru/7566839800)
 
 ##### Abukuma Cave / 福島・あぶくま洞
 
-[![](/assets/img/51e16ed33870.jpg)Takine-Goten in Abukuma Cave, Fukushima, Japan - Download Free 3D model by yuichi hayakawa (@yshaya)あぶくま洞・滝根御殿の3D点群モデル 地上レーザ測量（TLS）により作成 http://geomorphoto.blogspot.jp/2014/05/stalactites-developed-in-abukuma-karst.html https://flic.kr/p/cwE2Rb 150214 point spacing 4 cm - Takine-Goten in Abukuma Cave, Fukushima, Japan - Download Free 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/cc24c0e3e5614062a32872fec53df634?utm_source=oembed&utm_medium=embed&utm_campaign=cc24c0e3e5614062a32872fec53df634)
+[![](/assets/img/19f5f789b90f.jpg)Takine-Goten in Abukuma Cave, Fukushima, Japan - Download Free 3D model by yuichi hayakawa (@yshaya)あぶくま洞・滝根御殿の3D点群モデル 地上レーザ測量（TLS）により作成 http://geomorphoto.blogspot.jp/2014/05/stalactites-developed-in-abukuma-karst.html https://flic.kr/p/cwE2Rb 150214 point spacing 4 cm - Takine-Goten in Abukuma Cave, Fukushima, Japan - Download Free 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/cc24c0e3e5614062a32872fec53df634?utm_source=oembed&utm_medium=embed&utm_campaign=cc24c0e3e5614062a32872fec53df634)
 
 #### structure-from-motion / SfM多視点ステレオ写真測量
 
@@ -117,9 +117,9 @@ SfM多視点ステレオ写真測量（通称SfM）は、近年急速に地球�
 - 小花和宏之・早川裕弌・齋藤 仁・ゴメス クリストファー (2014) UAV-SfM手法と地上レーザ測量により得られたDSMの比較. 写真測量とリモートセンシング, 53 (2), 67–74. [ [CiNii](http://ci.nii.ac.jp/naid/40020108698) ]
 [Obanawa, H., Hayakawa, Y.S., Saito, H., Gomez, C. (2014) Comparison of DSMs derived from UAV-SfM method and terrestrial laser scanning. Journal of the Japan Society of Photogrammetry and Remote Sensing, 53 (2), 67–74.]
 
-[![](/assets/img/54f6e4d92902.jpg)onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/1016e7f475b34f27ae0d64dbed222bc6?utm_source=oembed&utm_medium=embed&utm_campaign=1016e7f475b34f27ae0d64dbed222bc6)
+[![](/assets/img/f766634ce8ce.jpg)onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/1016e7f475b34f27ae0d64dbed222bc6?utm_source=oembed&utm_medium=embed&utm_campaign=1016e7f475b34f27ae0d64dbed222bc6)
 
-[![](/assets/img/a6bb850729bd.jpg)onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/458f6ef68b364d7a90edf6b4a81129eb?utm_source=oembed&utm_medium=embed&utm_campaign=458f6ef68b364d7a90edf6b4a81129eb)
+[![](/assets/img/1bf9ca79421d.jpg)onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)14.0813 - onishiyama landslide foothill (untextured) - 3D model by yuichi hayakawa (@yshaya)](https://sketchfab.com/models/458f6ef68b364d7a90edf6b4a81129eb?utm_source=oembed&utm_medium=embed&utm_campaign=458f6ef68b364d7a90edf6b4a81129eb)
 
 #### desktop laser scanning / 卓上レーザ計測
 
@@ -139,9 +139,9 @@ Hassake, Raqqa
 
 Kaman-Kalehöyük, Hacıtuğrul, Sabuniye
 
-[![](/assets/img/da84603af70c.jpg)Low-relief erosional surfaces and Erciyes Dağı (Mt. Erciyes) volcano in Anatolian highland / アナトリア高原の小起伏面とエルジエス火山（トルコ共和国カイセリ県）](https://www.flickr.com/photos/tagiru/14089779332)
+[![](/assets/img/6d5e50647868.jpg)Low-relief erosional surfaces and Erciyes Dağı (Mt. Erciyes) volcano in Anatolian highland / アナトリア高原の小起伏面とエルジエス火山（トルコ共和国カイセリ県）](https://www.flickr.com/photos/tagiru/14089779332)
 
-[![](/assets/img/2f834479cf91.jpg)Low-relief erosional surfaces and Erciyes Dağı (Mt. Erciyes) volcano in Anatolian highland / アナトリア高原の小起伏面とエルジエス火山（トルコ共和国カイセリ県）](https://www.flickr.com/photos/tagiru/13906318598)
+[![](/assets/img/975cf4f9d14b.jpg)Low-relief erosional surfaces and Erciyes Dağı (Mt. Erciyes) volcano in Anatolian highland / アナトリア高原の小起伏面とエルジエス火山（トルコ共和国カイセリ県）](https://www.flickr.com/photos/tagiru/13906318598)
 
 ##### Oman / オマーン
 
@@ -155,7 +155,7 @@ Tovuz
 
 Naryn, Issyk-Kul
 
-[![](/assets/img/531cea82dc92.jpg)The Naryn River and mountains in Naryn, northern Tien Shan (Kyrgiz) / キルギス共和国中部，ナリン高地](https://www.flickr.com/photos/tagiru/14582482534)
+[![](/assets/img/2ab9b1e2f588.jpg)The Naryn River and mountains in Naryn, northern Tien Shan (Kyrgiz) / キルギス共和国中部，ナリン高地](https://www.flickr.com/photos/tagiru/14582482534)
 
 ##### Kurdistan / クルディスタン（北イラク）
 
