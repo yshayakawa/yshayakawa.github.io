@@ -18,7 +18,7 @@ page_class: pubs
 
 ### 2027
 
-- <span class="no">134</span> Imaizumi, F., Hayakawa, Y. S., Tagliaferri, A., Matsuoka, N., Stoffel, M. (accepted) Climate impacts on debris flow activity in a humid cold region: Mt. Rishiri, northern Japan, Geomorphology, 518, 110615. [https://doi.org/10.1016/j.geomorph.2026.110615](https://doi.org/10.1016/j.geomorph.2026.110615) [tentative access](https://authors.elsevier.com/c/1oAIr,3sl46hzh)
+- <span class="no">134</span> Imaizumi, F., Hayakawa, Y. S., Tagliaferri, A., Matsuoka, N., Stoffel, M. (accepted) Climate impacts on debris flow activity in a humid cold region: Mt. Rishiri, northern Japan, Geomorphology, 518, 110615. [https://doi.org/10.1016/j.geomorph.2026.110615](https://doi.org/10.1016/j.geomorph.2026.110615) [[tentative access](https://authors.elsevier.com/c/1oAIr,3sl46hzh)]
 
 ### 2026
 
