@@ -6,8 +6,6 @@ lang: en
 lang_dir: en
 ---
 
-Publications are listed on separate pages by type. Entries are numbered from the oldest (1) to the newest.
-
-- [journal articles / book chapters](/en/publications/journal/) (168)
-- [presentations](/en/publications/presentations/) (368)
-- [other publications](/en/publications/other/) (43)
+- [journal articles / book chapters](/en/publications/journal/)
+- [presentations](/en/publications/presentations/) 
+- [other publications](/en/publications/other/) 
