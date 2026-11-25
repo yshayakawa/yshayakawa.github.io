@@ -52,7 +52,7 @@
 </div>
 
 <div class="row3">
-  <main class="wrap" id="container">
+  <main class="wrap{% if page.page_class %} {{ page.page_class }}{% endif %}" id="container">
     {% if page.title and page.url != "/" %}<h1 class="pagetitle">{{ page.title }}</h1>{% endif %}
     {{ content }}
   </main>
@@ -66,5 +66,24 @@
   </footer>
 </div>
 
+<script>
+/* Touch devices have no hover: the first tap on a menu item that has a submenu opens the submenu, a second tap follows the link. */
+(function () {
+  var items = document.querySelectorAll('#topnav > ul > li');
+  function closeAll(except) { for (var i = 0; i < items.length; i++) { if (items[i] !== except) items[i].classList.remove('open'); } }
+  for (var i = 0; i < items.length; i++) {
+    (function (li) {
+      var a = li.querySelector(':scope > a'), sub = li.querySelector(':scope > ul');
+      if (!a || !sub) return;
+      a.addEventListener('click', function (e) {
+        if (window.matchMedia('(hover: none)').matches && !li.classList.contains('open')) {
+          e.preventDefault(); closeAll(li); li.classList.add('open');
+        }
+      });
+    })(items[i]);
+  }
+  document.addEventListener('click', function (e) { if (!e.target.closest('#topnav')) closeAll(null); });
+})();
+</script>
 </body>
 </html>

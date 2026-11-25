@@ -11,3 +11,26 @@
 .pcard p { margin: .35em 0 0; }
 .pcard img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 .pcard a { display: block; }
+
+/* publication pages: conspicuous year headings, serial numbers (newest = largest) */
+.pubs h2 { font-size: 20px; margin-top: 44px; }
+.pubs h3 { margin: 2em 0 .7em; padding: 6px 14px; font-size: 1.3em; font-weight: bold; color: #fff; background: #777; border-left: 10px solid #f71c54; border-bottom: 0; }
+.numlist { list-style: none; padding-left: 0 !important; margin: 0 0 1em; }
+.numlist > li { position: relative; padding: .5em 0 .5em 3.6em; margin: 0; border-bottom: 1px dotted #ccc; }
+.numlist .no { position: absolute; left: 0; top: .5em; width: 2.9em; text-align: right; font-weight: bold; color: #f71c54; font-variant-numeric: tabular-nums; }
+
+/* submenu: tap to open on touch devices (hover does not exist there) */
+#topnav li.open > ul { display: block; }
+#topnav ul ul a { padding-top: 9px; padding-bottom: 9px; }
+@media (hover: none) {
+  #topnav li:hover > ul { display: none; }
+  #topnav li.open > ul { display: block; }
+}
+@media (max-width: 700px) {
+  #topnav > ul > li { display: block; margin-right: 0; }
+  #topnav > ul > li > a { padding: 12px 0; }
+  #topnav ul ul { position: static; background: #666; border-bottom: 0; min-width: 0; }
+  #topnav ul ul a { padding-left: 16px; }
+  .langsw { top: 8px; }
+  .numlist > li { padding-left: 3.2em; }
+}

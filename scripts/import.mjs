@@ -114,9 +114,9 @@ const LINKMAP = {
   'research/topics/hdt': '/research/#high-definition-topography',
   'research/topics/geoarchaeology': '/research/#geoarchaeology',
   'research/grants': '/research/#grants', 'research/reviews': '/research/#reviews',
-  publications: '/publications/', 'publications/journal': '/publications/#journal',
-  'publications/presentations': '/publications/#presentations', 'publications/books': '/publications/#books',
-  'publications/other-publications': '/publications/#other',
+  publications: '/publications/', 'publications/journal': '/publications/journal/',
+  'publications/presentations': '/publications/presentations/', 'publications/books': '/publications/',
+  'publications/other-publications': '/publications/other/',
   photographs: '/photographs/', misc: '/misc/',
 };
 // pre = '/jp' or '/en' (home '/' stays language-neutral)
@@ -137,6 +137,7 @@ function rewriteLinks(md, pre) {
 // pure-Japanese and pure-English blocks (e.g. lab members) is kept on both sides and its
 // blocks are split by language.
 const CJK = /[぀-ヿ㐀-鿿]/;
+const CJKG = /[぀-ヿ㐀-鿿]/g;
 const plain = (s) => s.replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\]\([^)]*\)/g, ']').replace(/https?:\/\/\S+/g, '').replace(/[#*>|\-\[\]_]/g, ' ');
 function kind(s) {
   const t = plain(s);
@@ -164,6 +165,118 @@ function forLang(md, lang) {
     .join('');
 }
 
+// ---- publications: one language per entry, serial numbers ---------------------
+// Entries are "Japanese citation [English citation] ...". The JP page keeps the Japanese part,
+// the EN page the English one; entries without a translation are shown as they are.
+function bracketGroups(s) {
+  const out = [];
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] !== '[') continue;
+    let d = 0, j = i;
+    for (; j < s.length; j++) { if (s[j] === '[') d++; else if (s[j] === ']') { d--; if (d === 0) break; } }
+    if (j >= s.length) break;
+    if (s[j + 1] === '(') {
+      let p = 0, k = j + 1;
+      for (; k < s.length; k++) { if (s[k] === '(') p++; else if (s[k] === ')') { p--; if (p === 0) break; } }
+      i = k;
+    } else { out.push({ start: i, end: j + 1, inner: s.slice(i + 1, j) }); i = j; }
+  }
+  return out;
+}
+function isTrans(inner) {
+  const t = inner.replace(/\]\([^)]*\)/g, ']').trim();
+  const latin = (t.match(/[A-Za-z]/g) || []).length;
+  const cjk = (t.match(CJKG) || []).length;
+  return latin >= 40 && cjk <= latin * 0.15 && /^[A-Z][A-Za-z'’\-]+,\s*[A-Z]/.test(t);
+}
+function splitEntry(s, lang) {
+  const g = bracketGroups(s).find((x) => isTrans(x.inner));
+  if (!g) return s;
+  const head = s.slice(0, g.start), tail = s.slice(g.end);
+  if (!CJK.test(head)) return s;
+  if (lang === 'jp') return (head.trimEnd() + ' ' + tail.trimStart()).trim();
+  const t = tail.replace(/\[[^\[\]]*[぀-ヿ㐀-鿿][^\[\]]*\](?!\()/g, '').replace(/【招待講演】/g, '(invited)');
+  return (g.inner.trim() + ' ' + t.trim()).trim();
+}
+const HJP = {
+  'Refereed articles': '査読付き論文', 'Other articles': 'その他の論文', 'in press': '受理済・印刷中',
+  '2010 and before': '2010年以前', '2020 and before': '2020年以前',
+  'Academic Conferences (as presenter)': '学会発表（発表者）', 'Academic Conferences (as co-author)': '学会発表（共著者）',
+  'Other talks': 'その他の講演', 'Columns, Journal Frontpages, etc.': 'コラム・表紙など', 'Dissertations': '学位論文',
+};
+const HEN = { '博士論文': 'PhD thesis', '修士論文': "Master's thesis", '卒業論文': "Bachelor's thesis" };
+const mapHead = (line, lang) => {
+  const m = line.match(/^(#{1,6}) (.*)$/);
+  if (!m) return line;
+  const t = m[2].trim();
+  return m[1] + ' ' + ((lang === 'jp' ? HJP : HEN)[t] || t);
+};
+const isItem = (l) => /^- /.test(l);
+const isPlaceholder = (t) => /^[.…\s]*$/.test(t);
+const countItems = (md) => md.split('\n').filter((l) => isItem(l) && !isPlaceholder(l.slice(2))).length;
+let pubReport = '';
+function finishPub(md, lang, slug) {
+  const out = [];
+  let n = 0, changed = 0;
+  const samples = [];
+  for (const line of md.split('\n')) {
+    if (isItem(line)) {
+      const t = line.slice(2).trim();
+      if (isPlaceholder(t)) continue;
+      n++;
+      const jp = splitEntry(t, 'jp'), en = splitEntry(t, 'en');
+      if (jp !== t || en !== t) { changed++; if (samples.length < 3) samples.push('- JP: ' + jp.slice(0, 160) + '\n  EN: ' + en.slice(0, 160)); }
+      out.push('- ' + (lang === 'jp' ? jp : en));
+      continue;
+    }
+    if (/^#{1,6} /.test(line)) { out.push(mapHead(line, lang)); continue; }
+    const tl = line.trim();
+    if (tl === '') { out.push(''); continue; }
+    if (tl === '---' || tl === '(' || tl === ')') continue;
+    if (lang === 'en' && tl === '学会発表など') continue;
+    const pm = tl.match(/^（([^）]*)）$/);
+    if (pm && CJK.test(pm[1])) {
+      if (lang === 'jp') {
+        let k = out.length - 1;
+        while (k >= 0 && out[k] === '') k--;
+        if (k >= 0 && !/^[#-]/.test(out[k])) { const pre = out[k].match(/^(.*?\)\s*:\s*)/); out[k] = (pre ? pre[1] : '') + pm[1]; } else out.push(pm[1]);
+      }
+      continue;
+    }
+    const im = tl.match(/^(.*?\)\s*:\s*)(.*?)\s*（([^）]*)）\s*$/);
+    if (im && CJK.test(im[3]) && !CJK.test(im[2])) { out.push(im[1] + (lang === 'jp' ? im[3] : im[2])); continue; }
+    out.push(line);
+  }
+  // serial numbers per H2 group: the newest entry (top) gets the largest number
+  const total = {};
+  let g = 0;
+  for (const l of out) { if (/^#{1,2} /.test(l)) g++; if (isItem(l)) total[g] = (total[g] || 0) + 1; }
+  const left = { ...total };
+  g = 0;
+  const res = [];
+  let last = -1;
+  const closeRun = () => { if (last >= 0) { res.splice(last + 1, 0, '{: .numlist}'); last = -1; } };
+  for (const l of out) {
+    if (/^#{1,2} /.test(l)) g++;
+    if (isItem(l)) { res.push('- <span class="no">' + left[g]-- + '</span> ' + l.slice(2)); last = res.length - 1; continue; }
+    if (l.trim() !== '') closeRun();
+    res.push(l);
+  }
+  closeRun();
+  // drop year headings that have no entries
+  const fin = [];
+  for (let i = 0; i < res.length; i++) {
+    if (/^### /.test(res[i])) {
+      let j = i + 1;
+      while (j < res.length && res[j].trim() === '') j++;
+      if (j >= res.length || /^#{1,3} /.test(res[j])) continue;
+    }
+    fin.push(res[i]);
+  }
+  if (lang === 'jp') pubReport += '\n## ' + slug + ': ' + n + ' items, ' + changed + ' with a translation\n' + samples.join('\n') + '\n';
+  return fin.join('\n').replace(/\n{3,}/g, '\n\n');
+}
+
 // photographs: thumbnails in a grid (albums, then the dated archive)
 function photoGrid(md) {
   const [pre, ...rest] = md.split(/^## archive\s*$/im);
@@ -186,7 +299,7 @@ function photoGrid(md) {
   return out;
 }
 
-const fm = (title, permalink, lang) => '---\nlayout: default\ntitle: ' + title + '\npermalink: ' + permalink + '\nlang: ' + (lang === 'jp' ? 'ja' : 'en') + '\nlang_dir: ' + lang + '\n---\n\n';
+const fm = (title, permalink, lang, pageClass) => '---\nlayout: default\ntitle: ' + title + '\npermalink: ' + permalink + '\nlang: ' + (lang === 'jp' ? 'ja' : 'en') + '\nlang_dir: ' + lang + '\n' + (pageClass ? 'page_class: ' + pageClass + '\n' : '') + '---\n\n';
 // Google Sites footer ("Google サイト / 不正使用を報告") and empty list items ("-" alone would turn the previous line into a setext h2).
 const FOOTER = /\n*Google (?:サイト|Sites)\s*\n+\s*(?:不正使用を報告|Report abuse)\s*$/;
 const strip = (md) => md.replace(FOOTER, '').replace(/^[ \t]*-[ \t]*$/gm, '').replace(/\n{3,}/g, '\n\n').trim();
@@ -202,10 +315,13 @@ async function emit(slug, title, body, opts = {}) {
   body = body.replace(/^\s*Google (?:サイト|Sites)\s*$/gm, '').replace(/^\s*(?:不正使用を報告|Report abuse)\s*$/gm, '').replace(/\n{3,}/g, '\n\n');
   if (opts.transform) body = opts.transform(body);
   for (const lang of ['jp', 'en']) {
-    const b = rewriteLinks(forLang(body, lang), '/' + lang);
-    fs.mkdirSync(lang, { recursive: true });
-    fs.writeFileSync(lang + '/' + slug + '.md', fm(title, '/' + lang + '/' + slug + '/', lang) + b.trim() + '\n');
-    console.log('wrote', lang + '/' + slug + '.md', b.length);
+    let b = forLang(body, lang);
+    if (opts.perLang) b = opts.perLang(b, lang, slug);
+    b = rewriteLinks(b, '/' + lang);
+    const file = lang + '/' + slug + '.md';
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, fm(title, '/' + lang + '/' + slug + '/', lang, opts.pageClass) + b.trim() + '\n');
+    console.log('wrote', file, b.length);
   }
 }
 
@@ -258,13 +374,24 @@ res += sec('grants', 'grants', 2, demote(clean(g['research/grants']), 1));
 res += sec('reviews', 'reviews', 2, demote(clean(g['research/reviews']), 1));
 await emit('research', 'research', res);
 
-// publications
-let pub = '';
-pub += sec('journal articles / book chapters', 'journal', 2, demote(clean(g['publications/journal']), 1));
-pub += sec('presentations', 'presentations', 2, demote(clean(g['publications/presentations']), 1));
-pub += sec('books', 'books', 2, demote(clean(g['publications/books']), 1));
-pub += sec('other publications', 'other', 2, demote(clean(g['publications/other-publications']), 1));
-await emit('publications', 'publications', pub);
+// publications: one page per type + an index page
+const pubs = [
+  { slug: 'journal', title: 'journal articles / book chapters', ja: '論文・書籍の章', md: clean(g['publications/journal']) },
+  { slug: 'presentations', title: 'presentations', ja: '学会発表・講演', md: clean(g['publications/presentations']) },
+  { slug: 'books', title: 'books', ja: '書籍', md: clean(g['publications/books']) },
+  { slug: 'other', title: 'other publications', ja: 'その他の出版物（コラム・学位論文など）', md: clean(g['publications/other-publications']) },
+].filter((p) => p.md.trim());
+for (const p of pubs) {
+  p.count = countItems(p.md);
+  await emit('publications/' + p.slug, p.title, p.md, { perLang: finishPub, pageClass: 'pubs' });
+}
+for (const lang of ['jp', 'en']) {
+  const intro = lang === 'jp' ? '業績は種類ごとに別ページです。各ページの番号は古いものから順に大きくなります。' : 'Publications are listed on separate pages by type. Entries are numbered from the oldest (1) to the newest.';
+  const list = pubs.map((p) => '- [' + (lang === 'jp' ? p.ja : p.title) + '](/' + lang + '/publications/' + p.slug + '/)' + (p.count ? (lang === 'jp' ? '（' + p.count + '件）' : ' (' + p.count + ')') : '')).join('\n');
+  fs.mkdirSync(lang, { recursive: true });
+  fs.writeFileSync(lang + '/publications.md', fm('publications', '/' + lang + '/publications/', lang) + intro + '\n\n' + list + '\n');
+}
+fs.writeFileSync('_raw/pub-report.md', '# publication split report\n' + pubReport);
 
 await browser.close();
 

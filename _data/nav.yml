@@ -18,13 +18,11 @@
   url: /publications/
   children:
     - title: journal articles / book chapters
-      url: /publications/#journal
+      url: /publications/journal/
     - title: presentations
-      url: /publications/#presentations
-    - title: books
-      url: /publications/#books
+      url: /publications/presentations/
     - title: other publications
-      url: /publications/#other
+      url: /publications/other/
 - title: education/outreach
   url: /education/
   children:
