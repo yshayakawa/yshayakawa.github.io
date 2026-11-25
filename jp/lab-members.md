@@ -12,7 +12,7 @@ lang_dir: jp
 
 研究室「[環境地理](https://envgeo.ees.hokudai.ac.jp/members/)」のページをご覧ください。
 
-[![](/assets/img/4b24d5a5aa75.png)](https://envgeo.ees.hokudai.ac.jp/members)
+[![](/assets/img/d80deb8fce05.png)](https://envgeo.ees.hokudai.ac.jp/members)
 
 
 

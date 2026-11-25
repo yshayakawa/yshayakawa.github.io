@@ -5,7 +5,7 @@ Editor-in-Chief for [Geomorphology](https://www.sciencedirect.com/journal/geomor
 
 [北海道大学](https://www.hokudai.ac.jp/) [地球環境科学研究院](https://www.ees.hokudai.ac.jp/) [環境地理学分野](http://wwwgeo.ees.hokudai.ac.jp/modules/facul/index.htm?easiestml_lang=ja) 早川裕弌
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQdzubJ7ci185p6VWW421rMxry854AiPLgJQJ_GTWx9fruJ3nv66IR9KiU-4OCGrOlyVyHCESDSVwLz2-koMhIU3DgSTfEdCsrc2NeTYxsMr8Zd3Hc2fV1Z4M2aoPr2HCGgKzJBSIFkiC25BTzctxISPwCUNduymCooElnmiy1cMKu03OUzmiglXLARDPWebjYy4GkqVPvVGIo5ESuw=w1280)](https://www.flickr.com/photos/tagiru/42130374020/)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQfxL9jddoiaF0J-W7E2P79sv58cWbAvZYYRF7KX4wmxvgkk1Fr0Nd2gNxLe6UTGzsb6t6YvEO_uh9fcbBGDgHGcybp9PAE8I7RYsiEewlrQjhoh_2kBJiJ-iIYkTfQM2575_kg3ViWgoiPjJT88A5OYuLikAterwz3OUdKAYzPFFCD56a8A-UNVTKIbvvXiJnODnofaB95pxIUkjRs=w1280)](https://www.flickr.com/photos/tagiru/42130374020/)
 
 Geomorphology, Geoarchaeology and Geospatial Information Analysis – various fields of studies in physical geography, environmental geosciences and geospatial information science (GIS) are of my research interest. In particular, measurements and spatial analyses of land surface processes in areas from mountain watersheds to coasts are tackled to clarify the relationships between natural processes and human activities therein.
 
@@ -29,11 +29,11 @@ Geomorphology, Geoarchaeology and Geospatial Information Analysis – various fi
 
 hayakawa ++ eis.hokudai.ac.jp
 
-![](https://sites.google.com/sitesv-images-rt/APXyLQe8FT8iA_Ly5uXPmT0X2JxpyvQOryiG11R0IUohDmTe7ZYHAu_P4rRf34jdxAgD9UefDZtzHKVNtha9R7EDGPIFMyaTINVZFXiqx6aFEjMYuS0-88KXqb7KOSxpdESMigFdOlTvQTsAr80pvEUit7ptlZ0jqJ-m06EP4DICSzg8hqpBr7rCVhaQtGnnXVY_VUXMDbqT4GKrCxbRzDk8Fqipm_c_iywT036xR85l6cs=w1280)
+![](https://sites.google.com/sitesv-images-rt/APXyLQfryPNyc7bcESwWkSSsaw6zCrDXFxiIV22yta4FVQo8ng2CZZOvuBsHdZ2_j4tl9Vmigb9u4bwVJ3KrYTLtZxph61Bz1GFcfC_Ah143SuHFsLinoRcI64xob6RsmGq38vZ0b_u7Ot4B_a5l_pq9vm51JYTKBrGbULaFjmQyYZ6ABLgx-BOv06b-l_SVz153FK9m9ciEPLvhtJ0TucId-H1RnX-5a2v4L0ZcRllXLVs=w1280)
 
 ## updates
 
-[![](https://sites.google.com/sitesv-images-rt/APXyLQesMA5GW6g9IrkMR8jkcdr0NI5lvs47DC-cPwwK5ZGQ5vGJEnOb_Liuv7Cm96BJGmzc6o8cr-8gYI6NctT3H5FJGqdPE7yyFzTwd6-usc0obSkrlk2x1fqux-m43-KwabaU0TLucBCGaG93XF95ll0omHaQKe0dqhBDDTvRPJACLPo4Cox6WQ4CM02u2okl82AgsFUaAqP2fBB1B5U=w1280)](http://hdtopography.blogspot.com/)
+[![](https://sites.google.com/sitesv-images-rt/APXyLQebPvYi0qGmAo4FaDlAX1u-mTjpM7T3Jef5M8MpjftSip5yWGy4RSknxk1C_ECxPw2eaVkOWIrM_V7KQd6J55OdqAquv7U116Dgn7FUPgSztKgvt3kgZ4I2tiU4SqgiYZW994NF_vB249-qii17cc2A7_aa3Rm5f1TWaGgKxj4f0d6eoJjNj2uiS1XrsglTl50T5smTtoj9MTD6Y_c=w1280)](http://hdtopography.blogspot.com/)
 
 Google サイト
 
